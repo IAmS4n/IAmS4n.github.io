@@ -89,11 +89,9 @@
      + Ranked 1st among Iranian teams in the 6th international online security contest
 - layout: left
   job_title: Sharif University of Technology
-  dates: Feb 2015
+  jobs:
+    - dates: Feb 2015
+    - dates: Nov 2013
   description: |
-     Ranked 1st in Computer Forensics section of the 5th security contest
-- layout: left
-  job_title: Sharif University of Technology
-  dates: Nov 2013
-  description: |
-     Ranked 1st in Computer Forensics section of the 4th security contest
+     + Ranked 1st in Computer Forensics section of the 5th security contest
+     + Ranked 1st in Computer Forensics section of the 4th security contest
