@@ -1,0 +1,12 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100">
+<defs>
+
+
+ <g id="bg" fill="#ff4651" class="bg"><path d="M0,50a50,50 0 1,0 100,0a50,50 0 1,0 -100,0"/></g>
+
+ <path fill="#ffffff" id="i-427" d="M48,36.091v-32H25v-4h-2v4H0v32h23v3.479l-9.572,6.701l1.146,1.639L23,42.011v2.08h2v-2.08l8.428,5.898l1.146-1.639 L25,39.569v-3.479H48z M2,34.091v-28h44v28H2z"/> 
+</defs>
+<use x="0" y="0" class="bg" xlink:href="#bg"/>
+<use x="26" y="26" xlink:href="#i-427"/>
+<use x="0" y="0" xlink:href="#fg"/>
+</svg>

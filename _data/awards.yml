@@ -1,0 +1,76 @@
+# Experience template
+- layout: top-middle
+  name: Academic
+###################################
+- layout: left
+#  link: Link to company (optional)
+  dates: Aug 2016
+  description: | # this will include new lines to allow paragraphs
+    Ranked 4th in the 21st National Scientific Olympiad for University Students in Computer Engineering
+
+- layout: left
+#  link: Link to company (optional)
+  dates: Aug 2016
+  description: | # this will include new lines to allow paragraphs
+    Admission to Sharif University of Technology for graduate studies, Ranked 17th in Computer Engineering (9th in Artificial Intelligence) among 21'534 participants in National Entrance Exam
+##############################################################################################################
+- layout: top-middle
+  name: Machine Learning Contests
+###################################
+- layout: left
+  job_title: Porto University
+  link: http://ecdp2020.org
+  dates: Jan 2020
+  description: | # this will include new lines to allow paragraphs
+     Ranked 3rd in the HEROHE ECDP 2020
+
+- layout: left
+  job_title: National Brain Mapping Lab
+  link: http://nbml.ir/EN
+  dates: Dec 2017
+  description: | # this will include new lines to allow paragraphs
+     Ranked 1st team in the first Iranian BCI Competition (iBCIC)
+
+##############################################################################################################
+- layout: top-middle
+  name: Programming Contests
+###################################
+- layout: left
+  job_title: West Asia Region
+  dates: Dec 2015
+  description: | # this will include new lines to allow paragraphs
+     Ranked 10th in the ACM/ICPC Collegiate Programming Contest
+
+- layout: left
+  job_title: Texas at Austin University
+  link: http://memocode.irisa.fr/2015/
+  dates: July 2015
+  description: | # this will include new lines to allow paragraphs
+     Ranked 2nd team in MEMOCODE Co-Design Contest’15
+
+- layout: left
+  job_title: West Asia Region
+  dates: Dec 2014
+  description: | # this will include new lines to allow paragraphs
+     Ranked 12th in the ACM/ICPC Collegiate Programming Contest, West Asia Region
+##############################################################################################################
+- layout: top-middle
+  name: Computer Security Contests
+###################################
+- layout: left
+  job_title: Sharif University of Technology
+  dates: Feb 2018
+  description: | # this will include new lines to allow paragraphs
+     Ranked 4th among 682 teams (1st among Iranian teams) in the 8th international online security contest
+
+- layout: left
+  job_title: Sharif University of Technology
+  dates: Dec 2016
+  description: | # this will include new lines to allow paragraphs
+     Ranked 1st among 700 teams in the 7th international online security contest
+
+- layout: left
+  job_title: Sharif University of Technology
+  dates: Feb 2016
+  description: | # this will include new lines to allow paragraphs
+     Ranked 1st among Iranian teams in the 6th international online security contest

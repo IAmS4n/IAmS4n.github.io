@@ -2,43 +2,59 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {%- include head.html -%}
-
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+{%- include header.html -%}
 
-  {%- include header.html -%}
+{%- if site.graph_animation -%}
+<div id="particles-js"></div>
+<script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/app.js' | relative_url }}"></script>
+{%- endif -%}
 
-  <main class="page-content" aria-label="Content">
+
+<main class="page-content" aria-label="Content">
     <div class="wrapper">
 
-      {%- if jekyll.environment == 'production' and site.gtm -%}
+
+        {%- if jekyll.environment == 'production' and site.gtm -%}
         {%- include gtm_body.html -%}
-      {%- endif -%}
+        {%- endif -%}
 
-      {%- include about.html -%}
+        {%- include about.html -%}
 
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
-      {%- endif -%}
-
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
-      {%- endif -%}
-
-      {%- if site.data.education.size > 0 -%}
+        {%- if site.data.education.size > 0 -%}
         {%- include education.html -%}
-      {%- endif -%}
+        {%- endif -%}
 
-      {%- if site.more_content -%}
+        {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
+        {%- endif -%}
+
+        {%- if site.data.publications.size > 0 -%}
+        {%- include publications.html -%}
+        {%- endif -%}
+
+        {%- if site.data.projects.size > 0 -%}
+        {%- include projects.html -%}
+        {%- endif -%}
+
+        {%- if site.data.awards.size > 0 -%}
+        {%- include awards.html -%}
+        {%- endif -%}
+
+        {%- if site.more_content -%}
         {%- include more.html -%}
-      {%- endif -%}
+        {%- endif -%}
 
     </div>
-  </main>
+</main>
 
-  {%- include footer.html -%}
-  {% if site.darkmode == false %}
-    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
-  {% endif %}
+{%- include footer.html -%}
+{% if site.darkmode == false %}
+<script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+{% endif %}
+
+
 </body>
 
 </html>

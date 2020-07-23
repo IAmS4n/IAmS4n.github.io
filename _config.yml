@@ -1,37 +1,40 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: IAmS4n/IAmS4n.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: under construction #Ehsan Montahaei
+#title: Machine Learning Researcher
+email: ehsan.montahaei@gmail.com
+#phone: Your phone number (optional)
+website: https://iams4n.github.io/
+cv: cv.pdf
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
+graph_animation: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+googlescholar: hzcep2cAAAAJ
+github_username:  iams4n
+linkedin_username: ehsan-montahaei-058364111
+#twitter_username: jekyllrb
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: UC1C4SsiVLT5pLDiKvh4apSQ
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -39,21 +42,15 @@ additional_links:
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
+gtag: "UA-142543208-2"
 # google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: https://avatars3.githubusercontent.com/u/6833210
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
-
+  I hold an M.Sc. degree in Artificial intelligence from the Sharif University of Technology. Now, I am a machine learning researcher, especially in deep learning. I have been working as a researcher in the Machine Learning Laboratory at the Department of Computer Engineering at the Sharif University of Technology since I graduated. My master thesis was about the generative models and usage of adversarial training for text generation. My current research is about medical images and especially very high-resolution histopathology images. Also, I have experience of some multidisciplinary research. I worked on the usage of GAN in cosmology for generating cosmic strings. I have collaborated with physicians for the segmentation and classification of CT and MRI images.
+  I am fascinated by automation and the practical use of science in real life. Also, I am interested in theory for utilizing in practice.
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 

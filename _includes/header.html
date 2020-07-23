@@ -97,6 +97,20 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.googlescholar -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="ai ai-google-scholar-square ai-3x" title="Google Scholar link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.cv -%}
+          <li>
+            <a target="_blank" href="{{ site.cv| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="ai ai-cv-square ai-3x" title="CV link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {% for link in site.additional_links %}
           <li>
             {% include a.html href=link.url class="button button--sacnite button--round-l" %}

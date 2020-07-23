@@ -1,9 +1,19 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
+  name: Sharif University of Technology, Iran
+  dates: 2016 - 2019
+  qualification: Masters of Artificial Intelligence
+#  quote: >
+#    Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    My thesis explored the GANs usage in text generation.
+    I found some shortage in one of the common evaluation scenarios, and a new metric was introduced for enhancement of evaluation.
+    Also, a new method supporting theoretical analysis was introduced, which were comparable to the state of the art methods.
+- layout: left
+  name: Kharazmi University, Iran
+  dates: 2011 - 2016
+  qualification: Bachelor of Software Engineering
+  quote: >
+    Kharazmi University formerly known as Tarbiat Moallem University
+#  description: | # this will include new lines to allow paragraphs
+#    Description of qualification
