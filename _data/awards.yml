@@ -3,16 +3,28 @@
   name: Academic
 ###################################
 - layout: left
-#  link: Link to company (optional)
-  dates: Aug 2016
-  description: | # this will include new lines to allow paragraphs
-    Ranked 4th in the 21st National Scientific Olympiad for University Students in Computer Engineering
-
+  dates: 2019
+  description: |
+    Offered to attend \textit{Sharif University of Technology}'s PHD program in Artificial Intelligence with Award}
 - layout: left
-#  link: Link to company (optional)
   dates: Aug 2016
-  description: | # this will include new lines to allow paragraphs
+  description: |
+    Ranked 4th in the 21st National Scientific Olympiad for University Students in Computer Engineering
+- layout: left
+  dates: Aug 2016
+  description: |
     Admission to Sharif University of Technology for graduate studies, Ranked 17th in Computer Engineering (9th in Artificial Intelligence) among 21'534 participants in National Entrance Exam
+- layout: left
+  dates: Dec 2015
+  job_title: Kharazmi University
+  description: |
+     Honored by Director of Engineering Department of Kharazmi University for outstanding research achievements
+- layout: left
+  dates: Jan 2010
+  description: |
+    + Semi-finalist at 28th National Mathematics Olympiad
+    + Semi-finalist at 20th National Computer Olympiad
+    + Semi-finalist at 6th National Astronomy Olympiad
 ##############################################################################################################
 - layout: top-middle
   name: Machine Learning Contests
@@ -21,14 +33,19 @@
   job_title: Porto University
   link: http://ecdp2020.org
   dates: Jan 2020
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 3rd in the HEROHE ECDP 2020
-
+- layout: left
+  job_title: Sharif University of Technology
+  link: http://ecdp2020.org
+  dates: Mar 2019
+  description: |
+     Ranked 3rd among more than 300 teams in the Sharif Data Days 2019
 - layout: left
   job_title: National Brain Mapping Lab
   link: http://nbml.ir/EN
   dates: Dec 2017
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 1st team in the first Iranian BCI Competition (iBCIC)
 
 ##############################################################################################################
@@ -38,20 +55,20 @@
 - layout: left
   job_title: West Asia Region
   dates: Dec 2015
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 10th in the ACM/ICPC Collegiate Programming Contest
 
 - layout: left
   job_title: Texas at Austin University
   link: http://memocode.irisa.fr/2015/
   dates: July 2015
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 2nd team in MEMOCODE Co-Design Contest’15
 
 - layout: left
   job_title: West Asia Region
   dates: Dec 2014
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 12th in the ACM/ICPC Collegiate Programming Contest, West Asia Region
 ##############################################################################################################
 - layout: top-middle
@@ -60,17 +77,25 @@
 - layout: left
   job_title: Sharif University of Technology
   dates: Feb 2018
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 4th among 682 teams (1st among Iranian teams) in the 8th international online security contest
-
 - layout: left
   job_title: Sharif University of Technology
   dates: Dec 2016
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 1st among 700 teams in the 7th international online security contest
-
 - layout: left
   job_title: Sharif University of Technology
   dates: Feb 2016
-  description: | # this will include new lines to allow paragraphs
+  description: |
      Ranked 1st among Iranian teams in the 6th international online security contest
+- layout: left
+  job_title: Sharif University of Technology
+  dates: Feb 2015
+  description: |
+     Ranked 1st in Computer Forensics section of the 5th security contest
+- layout: left
+  job_title: Sharif University of Technology
+  dates: Nov 2013
+  description: |
+     Ranked 1st in Computer Forensics section of the 4th security contest
