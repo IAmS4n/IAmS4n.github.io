@@ -6,7 +6,7 @@
   job_title: Sharif University of Technology
   dates: 2019
   description: |
-    Offered to attend Sharif University of Technology's PHD program in Artificial Intelligence with Award}
+    Offered to attend Sharif University of Technology's PHD program in Artificial Intelligence with Award
 - layout: left
   job_title: Tarbiat Modares University
   dates: Aug 2016
@@ -41,7 +41,6 @@
      Ranked 3rd in the HEROHE ECDP 2020
 - layout: left
   job_title: Sharif University of Technology
-  link: http://ecdp2020.org
   dates: Mar 2019
   description: |
      Ranked 3rd among more than 300 teams in the Sharif Data Days 2019
@@ -73,26 +72,21 @@
   job_title: West Asia Region
   dates: Dec 2014
   description: |
-     Ranked 12th in the ACM/ICPC Collegiate Programming Contest, West Asia Region
+     Ranked 12th in the ACM/ICPC Collegiate Programming Contest
 ##############################################################################################################
 - layout: top-middle
   name: Computer Security Contests
 ###################################
 - layout: left
   job_title: Sharif University of Technology
-  dates: Feb 2018
+  jobs:
+    - dates: Feb 2018
+    - dates: Dec 2016
+    - dates: Feb 2016
   description: |
-     Ranked 4th among 682 teams (1st among Iranian teams) in the 8th international online security contest
-- layout: left
-  job_title: Sharif University of Technology
-  dates: Dec 2016
-  description: |
-     Ranked 1st among 700 teams in the 7th international online security contest
-- layout: left
-  job_title: Sharif University of Technology
-  dates: Feb 2016
-  description: |
-     Ranked 1st among Iranian teams in the 6th international online security contest
+     + Ranked 4th among 682 teams (1st among Iranian teams) in the 8th international online security contest
+     + Ranked 1st among 700 teams in the 7th international online security contest
+     + Ranked 1st among Iranian teams in the 6th international online security contest
 - layout: left
   job_title: Sharif University of Technology
   dates: Feb 2015
