@@ -11,12 +11,20 @@
 
 - layout: left
   company: Sharif University of Technology
-#  link: Link to company (optional)
   job_title: Teacher Assistant
-  quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+  description: |
+    **Spring 2019:**
+    + Deep Learning (Graduate Course)
+
+    **Fall 2018:**
+    + Machine Learning (Graduate Course)
+
+    **Spring 2018:**
+    +  [Head TA of] Probabilistic Graphical Models (Graduate Course)
+
+    **Fall 2017:**
+    + Modern Information Retrieval
+    + Probability and Statistics
 
 
 - layout: left
