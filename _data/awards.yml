@@ -3,14 +3,17 @@
   name: Academic
 ###################################
 - layout: left
+  job_title: Sharif University of Technology
   dates: 2019
   description: |
-    Offered to attend \textit{Sharif University of Technology}'s PHD program in Artificial Intelligence with Award}
+    Offered to attend Sharif University of Technology's PHD program in Artificial Intelligence with Award}
 - layout: left
+  job_title: Tarbiat Modares University
   dates: Aug 2016
   description: |
     Ranked 4th in the 21st National Scientific Olympiad for University Students in Computer Engineering
 - layout: left
+  job_title: National Entrance Exam
   dates: Aug 2016
   description: |
     Admission to Sharif University of Technology for graduate studies, Ranked 17th in Computer Engineering (9th in Artificial Intelligence) among 21'534 participants in National Entrance Exam
@@ -20,6 +23,7 @@
   description: |
      Honored by Director of Engineering Department of Kharazmi University for outstanding research achievements
 - layout: left
+  job_title: Young Scholars’ Club
   dates: Jan 2010
   description: |
     + Semi-finalist at 28th National Mathematics Olympiad
