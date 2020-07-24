@@ -23,11 +23,13 @@ function toggle_abstract(name){
                 </p>
 
                 <ul class="no-print" style="display: inline-block;">
-                    <li style="display: inline-block;margin: 5px;">
-                        <a href="{{publication.link|URI Escape}}" target="_blank">
-                            <i class="fa fa-file-pdf-o" title="{{ publication.title }} PDF link"></i>
-                        </a>
-                    </li>
+                    {%- if publication.pdf -%}
+                        <li style="display: inline-block;margin: 5px;">
+                            <a href="{{publication.pdf|URI Escape}}" target="_blank">
+                                <i class="fa fa-file-pdf-o" title="{{ publication.title }} PDF link"></i>
+                            </a>
+                        </li>
+                    {%- endif -%}
                     {%- if publication.github -%}
                         <li style="display: inline-block;margin: 5px;">
                             <a href="https://github.com/{{ publication.github }}" target="_blank">
