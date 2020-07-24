@@ -4,19 +4,24 @@
   slide: https://docs.google.com/presentation/d/1S-kgqCYNeC9SiIOQ_GshQvVnJYEp1yXARcZAe-a2oDg
   youtube: x0MDJe4Oc4k
   poster: https://iams4n.github.io/posters/NAACL2019_NeuralGen_JointlyMeasuring.pdf
-  details: Montahaei, E., Alihosseini, D., & Baghshah, M. S. (2019, In Proceedings of the Workshop on Methods for Optimizing and Evaluating Neural Language Generation.).
-  short_abstract: Text generation is an important Natural Language Processing task with various applications. Although several metrics have already been introduced to evaluate the text generation methods, each of them has its own shortcomings. The most widely used metrics such as BLEU only consider the quality of generated sentences and neglect their diversity.
+  details: |
+    **Montahaei, E.**, Alihosseini, D., & Baghshah, M. S. (2019, In Proceedings of the Workshop on Methods for Optimizing and Evaluating Neural Language Generation.).
+  short_abstract: |
+    Text generation is an important Natural Language Processing task with various applications. Although several metrics have already been introduced to evaluate the text generation methods, each of them has its own shortcomings. The most widely used metrics such as BLEU only consider the quality of generated sentences and neglect their diversity.
   abstract: | # this will include new lines to allow paragraphs
     Text generation is an important Natural Language Processing task with various applications. Although several metrics have already been introduced to evaluate the text generation methods, each of them has its own shortcomings. The most widely used metrics such as BLEU only consider the quality of generated sentences and neglect their diversity. For example, repeatedly generation of only one high quality sentence would result in a high BLEU score. On the other hand, the more recent metric introduced to evaluate the diversity of generated texts known as Self-BLEU ignores the quality of generated texts. In this paper, we propose metrics to evaluate both the quality and diversity simultaneously by approximating the distance of the learned generative model and the real data distribution. For this purpose, we first introduce a metric that approximates this distance using n-gram based measures. Then, a feature-based measure which is based on a recent highly deep model trained on a large text corpus called BERT is introduced. Finally, for oracle training mode in which the generator's density can also be calculated, we propose to use the distance measures between the corresponding explicit distributions. Eventually, the most popular and recent text generation models are evaluated using both the existing and the proposed metrics and the preferences of the proposed metrics are determined.
 
 - title: Adversarial classifier for imbalanced problems
   link: https://arxiv.org/abs/1811.08812
-  details: Montahaei, E., Ghorbani, M., Baghshah, M. S., & Rabiee, H. R. (2018)
-  short_abstract: Adversarial approach has been widely used for data generation in the last few years. However, this approach has not been extensively utilized for classifier training. In this paper, we propose an adversarial framework for classifier training that can also handle imbalanced data.
+  details: |
+    **Montahaei, E.**, Ghorbani, M., Baghshah, M. S., & Rabiee, H. R. (2018)
+  short_abstract: |
+    Adversarial approach has been widely used for data generation in the last few years. However, this approach has not been extensively utilized for classifier training. In this paper, we propose an adversarial framework for classifier training that can also handle imbalanced data.
   abstract: |
     Adversarial approach has been widely used for data generation in the last few years. However, this approach has not been extensively utilized for classifier training. In this paper, we propose an adversarial framework for classifier training that can also handle imbalanced data. Indeed, a network is trained via an adversarial approach to give weights to samples of the majority class such that the obtained classification problem becomes more challenging for the discriminator and thus boosts its classification capability. In addition to the general imbalanced classification problems, the proposed method can also be used for problems such as graph representation learning in which it is desired to discriminate similar nodes from dissimilar nodes. Experimental results on imbalanced data classification and on the tasks like graph link prediction show the superiority of the proposed method compared to the state-of-the-art methods.
 
 - title: Efficient Continous Skyline Computation on Multi-Coore Processors Based on Manhattan Distance
   link: https://iams4n.github.io/papers/EfficientSkylineManhattan.pdf
   slide: https://iams4n.github.io/slide/EfficientSkylineManhattan.pdf
-  details: Montahaei, E., Ghafouri, M., Rahmani, S., Ghasemi, H., Bakhtiar, F. S., Zamanshoar, R., ... & Gorgin, S. (2015, In 2015 ACM/IEEE International Conference on Formal Methods and Models for Codesign. IEEE.)
+  details: |
+    **Montahaei, E.**, Ghafouri, M., Rahmani, S., Ghasemi, H., Bakhtiar, F. S., Zamanshoar, R., ... & Gorgin, S. (2015, In 2015 ACM/IEEE International Conference on Formal Methods and Models for Codesign. IEEE.)

@@ -3,11 +3,11 @@ repository: IAmS4n/IAmS4n.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: under construction #Ehsan Montahaei
-#title: Machine Learning Researcher
+name: Ehsan Montahaei (under construction)
+title: Machine Learning Researcher
 email: ehsan.montahaei@gmail.com
 #phone: Your phone number (optional)
-website: https://iams4n.github.io/
+website: https://iams4n.github.io
 cv: cv.pdf
 
 # Dark Mode (true/false/never)
@@ -49,7 +49,7 @@ gtag: "UA-142543208-2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://avatars3.githubusercontent.com/u/6833210
 about_content: | # this will include new lines to allow paragraphs
-  I hold an M.Sc. degree in Artificial intelligence from the Sharif University of Technology. Now, I am a machine learning researcher, especially in deep learning. I have been working as a researcher in the Machine Learning Laboratory at the Department of Computer Engineering at the Sharif University of Technology since I graduated. My master thesis was about the generative models and usage of adversarial training for text generation. My current research is about medical images and especially very high-resolution histopathology images. Also, I have experience of some multidisciplinary research. I worked on the usage of GAN in cosmology for generating cosmic strings. I have collaborated with physicians for the segmentation and classification of CT and MRI images.
+  I hold an M.Sc. degree in Artificial intelligence from the Sharif University of Technology. I have been working as a researcher in the Machine Learning Laboratory at the Sharif University of Technology since I graduated. My research interest is machine learning, especially deep learning. My master thesis was about the generative models and usage of adversarial training for text generation. My current research is about medical images and especially very high-resolution histopathology images. Also, I have experience of some multidisciplinary research. I worked on the usage of GAN in cosmology for cosmic string simulation. I have collaborated with physicians for the segmentation and classification tasks of CT and MRI images.
   I am fascinated by automation and the practical use of science in real life. Also, I am interested in theory for utilizing in practice.
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -79,9 +79,9 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -92,4 +92,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
