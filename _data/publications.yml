@@ -20,8 +20,12 @@
   abstract: |
     Adversarial approach has been widely used for data generation in the last few years. However, this approach has not been extensively utilized for classifier training. In this paper, we propose an adversarial framework for classifier training that can also handle imbalanced data. Indeed, a network is trained via an adversarial approach to give weights to samples of the majority class such that the obtained classification problem becomes more challenging for the discriminator and thus boosts its classification capability. In addition to the general imbalanced classification problems, the proposed method can also be used for problems such as graph representation learning in which it is desired to discriminate similar nodes from dissimilar nodes. Experimental results on imbalanced data classification and on the tasks like graph link prediction show the superiority of the proposed method compared to the state-of-the-art methods.
 
-- title: Efficient Continous Skyline Computation on Multi-Coore Processors Based on Manhattan Distance
-  link: https://iams4n.github.io/papers/EfficientSkylineManhattan.pdf
+- title: Efficient continuous skyline computation on multi-core processors based on Manhattan distance
+  link: https://ieeexplore.ieee.org/abstract/document/7340469
   slide: https://iams4n.github.io/slide/EfficientSkylineManhattan.pdf
   details: |
     **Montahaei, E.**, Ghafouri, M., Rahmani, S., Ghasemi, H., Bakhtiar, F. S., Zamanshoar, R., ... & Gorgin, S. (2015, In 2015 ACM/IEEE International Conference on Formal Methods and Models for Codesign. IEEE.)
+  short_abstract: |
+    The continuous Skyline query has recently become the subject of the several researches due to its wide spectrum of applications such as multi-criteria decision making, graph analysis network, wireless sensor network and data exploration.
+  abstract: |
+    The continuous Skyline query has recently become the subject of the several researches due to its wide spectrum of applications such as multi-criteria decision making, graph analysis network, wireless sensor network and data exploration. In these applications, the datasets are huge and have various dimensions. Moreover, they constantly change as time passes. Therefore, this query is considered as a computation intensive operation that finding the result in a reasonable time is a challenge. In this paper, we present an efficient parallel continuous Skyline approach. In our suggested method, the dataset points are sorted and pruned based on Manhattan distance. Moreover, we use several optimization methods to optimize memory usage in comparison with naïve implementation. In addition, besides the applied conventional parallelization methods, we partition the time steps based on the number of available cores. The experimental results for a dataset that contains 800k points with 7 dimensions show considerable speedup.
