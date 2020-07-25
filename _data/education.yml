@@ -4,9 +4,9 @@
   dates: 2016 - 2019
   qualification: Masters of Artificial Intelligence
   quote: |
-      Thesis Title":" Adversarial Networks for Sequence Generation
+      Thesis Title : Adversarial Networks for Sequence Generation
 
-      Supervisor":" Dr. Mahdieh Soleymani Baghshah
+      Supervisor : Dr. Mahdieh Soleymani Baghshah
 
   description: | # this will include new lines to allow paragraphs
     My thesis explored the GANs usage in text generation.
@@ -15,7 +15,7 @@
 
     The thesis(in Persian) and related publications are in [this repository](https://github.com/IAmS4n/My-Msc-Thesis)
 
-    **Courses Taken":"**
+    **Courses Taken :**
     Deep Learning, Probabilistic Graphical Models, Machine Learning, Stochastic Processes, Digital image processing, Digital Signal Processing, Signal Processing, Social & Economics Networks
 - layout: left
   name: Kharazmi University, Iran
@@ -24,5 +24,5 @@
   quote: >
     Kharazmi University formerly known as Tarbiat Moallem University
   description: |
-    **Courses Taken":"**
+    **Courses Taken :**
     Video Processing (Graduate Course), Probability and Statistics, Artificial Intelligence
