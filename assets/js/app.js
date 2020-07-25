@@ -17,7 +17,7 @@ particlesJS('particles-js',
      fps_limit: 30,
      particles: {
       number: {
-        value: 60,
+        value: 85,
         density: {
           enable: true,
           value_area: 520
@@ -46,7 +46,7 @@ particlesJS('particles-js',
         random: true,
         anim: {
           enable: false,
-          speed: 5,
+          speed: 1,
           opacity_min: 0.1,
           sync: false
         }
