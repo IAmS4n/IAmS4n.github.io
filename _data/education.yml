@@ -3,9 +3,10 @@
   name: Sharif University of Technology, Iran
   dates: 2016 - 2019
   qualification: Masters of Artificial Intelligence
-    quote: >
-      Thesis Title: Adversarial Networks for Sequence Generation
-      Supervisor: Dr. Mahdieh Soleymani Baghshah
+    quote: |
+      > Thesis Title: Adversarial Networks for Sequence Generation
+
+      > Supervisor: Dr. Mahdieh Soleymani Baghshah
   description: | # this will include new lines to allow paragraphs
     My thesis explored the GANs usage in text generation.
     I found some shortage in one of the common evaluation scenarios, and a new metric was introduced for enhancement of evaluation.
