@@ -1,13 +1,13 @@
 # Experience template
 - layout: left
   company: Sharif University of Technology
-#  link: Link to company (optional)
+  #  link: Link to company (optional)
   job_title: Researcher
   dates: 2019 - present
-  quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+#  quote: >
+#    Short description of the company (optional)
+#  description: | # this will include new lines to allow paragraphs
+#    Description of role
 
 - layout: left
   company: Sharif University of Technology
@@ -26,10 +26,9 @@
     + Modern Information Retrieval
     + Probability and Statistics
 
-
 - layout: left
   company: Institute for Research in Fundamental Sciences
-  link: http://ipm.ir/
+  link: http://ipm.ir
   job_title: Summer Intern
   dates: summer 2015
   description: | # this will include new lines to allow paragraphs
