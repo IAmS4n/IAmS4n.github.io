@@ -1,9 +1,18 @@
+## Project template
+#- layout: top-middle
+#  name: Project name
+#  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+#  quote: >
+#    Short overview of the project (optional)
+#  description: | # this will include new lines to allow paragraphs
+#    Description about the work on/with the project
+
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+  name: Vision-based 360-degree Robot
+  description: |
+    Design and construction of a mobile robot with the ability to move to specific points on a board.
+    I used machine vision (OpenCV library) for navigation, Bluetooth technology for communication, and OpenMP library for enhancing the performance of the routing algorithms.
+
+    <iframe width="2168" height="988" src="https://www.youtube.com/embed/ZQ_D5UqUvxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
