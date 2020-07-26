@@ -26,7 +26,7 @@
 
 - layout: top-middle
   name: Privacy focused DICOM web panel
-  github: https://github.com/IAmS4n/CTLabeling
+  github: IAmS4n/CTLabeling
   description: |
     ![image alt <](/images/ct_panel_demo.png)
 
@@ -34,7 +34,7 @@
 
 - layout: top-middle
   name: Pipelined MIPS CPU
-  github: https://github.com/IAmS4n/Pipelined-MIPS-Verilog
+  github: IAmS4n/Pipelined-MIPS-Verilog
   description: |
     ![image alt <](/images/mips.jpg)
 
