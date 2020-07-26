@@ -31,3 +31,11 @@
     ![image alt <](/images/ct_panel_demo.png)
 
     test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
+
+- layout: top-middle
+  name: Pipelined MIPS CPU
+  github: https://github.com/IAmS4n/Pipelined-MIPS-Verilog
+  description: |
+    ![image alt <](/images/mips.jpg)
+
+    test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
