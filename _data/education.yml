@@ -4,10 +4,10 @@
   dates: 2016 - 2019
   qualification: Masters of Artificial Intelligence
   quote: >
-      Supervisor : Dr. Mahdieh Soleymani Baghshah
+      **Supervisor** : Dr. Mahdieh Soleymani Baghshah
 
   description: | # this will include new lines to allow paragraphs
-    My thesis explored the GANs usage in text generation.
+    My thesis explored the GANs usage in discrete sequence generation, especially text generation.
     I found some shortage in one of the common evaluation scenarios, and a new metric was introduced for enhancement of evaluation.
     Also, a new method supporting theoretical analysis was introduced, which were comparable to the state of the art methods.
 
@@ -23,4 +23,4 @@
     Kharazmi University formerly known as Tarbiat Moallem University
   description: |
     **Courses Taken :**
-    Video Processing (Graduate Course), Probability and Statistics, Artificial Intelligence
+    Video Processing (Graduate Course), Probability and Statistics, Artificial Intelligence, multimedia (introduction to Image Processing)

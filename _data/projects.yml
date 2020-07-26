@@ -17,3 +17,9 @@
     I used machine vision (OpenCV library) for navigation, Bluetooth technology for communication, and OpenMP library for enhancing the performance of the routing algorithms.
     A camera above of the
 
+- layout: top-middle
+  name: Skyline
+  description: |
+    ![image alt <](/images/skyline.png)
+
+    test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
