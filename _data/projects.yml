@@ -25,7 +25,8 @@
     test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
 
 - layout: top-middle
-  name: Skyline
+  name: Privacy focused DICOM web panel
+  github: https://github.com/IAmS4n/CTLabeling
   description: |
     ![image alt <](/images/ct_panel_demo.png)
 
