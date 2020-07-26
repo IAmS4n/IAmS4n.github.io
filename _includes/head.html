@@ -16,24 +16,27 @@
     <link rel="stylesheet" media="screen" href="{{ '/assets/css/style.css' | relative_url }}">
     <style>
         .dark a {
-        color: inherit;
+            color: inherit;
         }
 
         img[alt$=">"] {
           float: right;
+          left;margin-left:20px
         }
 
         img[alt$="<"] {
           float: left;
+          left;margin-right:20px
         }
 
         img[alt$="><"] {
           display: block;
-          max-width: 100%;
+          width:400px;
           height: auto;
           margin: auto;
           float: none!important;
         }
+
     </style>
 
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
