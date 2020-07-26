@@ -11,7 +11,7 @@
 - layout: top-middle
   name: Vision-based 360-degree Robot
   description: |
-    <iframe style="float: left;margin:20px" width="312" height="360" src="https://www.youtube.com/embed/ZQ_D5UqUvxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="float: left;margin-right:20px" width="250" height="288" src="https://www.youtube.com/embed/ZQ_D5UqUvxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     Design and construction of a mobile robot with the ability to move to specific points on a board.
     I used machine vision (OpenCV library) for navigation, Bluetooth technology for communication, and OpenMP library for enhancing the performance of the routing algorithms.
