@@ -14,22 +14,23 @@
     <iframe style="float: left;margin-right:50px;border-radius: 15px;" width="250" height="250" src="https://www.youtube.com/embed/ZQ_D5UqUvxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     Design and construction of a mobile robot with the ability to move to specific points on a board.
-    I used machine vision (OpenCV library) for navigation, Bluetooth technology for communication, and OpenMP library for enhancing the performance of the routing algorithms.
-    A camera above of the
+
+    I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
+    The programming language that is used in this project was **C++**.
+
+    As you can see in the left video, there is a fixed camera above the robot. The camera is connected to a computer and the position and angle of the robot are detects using the robot's marker pattern. The computer wirelessly sends commands which describe the PWD rate and working time for each of four motors. the robot utilizes an **AVR microcontroller** for the execution of the commands.
 
 - layout: top-middle
   name: Skyline
+  image: /images/skyline.png
   description: |
-    ![image alt <](/images/skyline.png)
-
     test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
 
 - layout: top-middle
-  name: Privacy focused DICOM web panel
+  name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
+  image: /images/ct_panel_demo.png
   description: |
-    ![image alt <](/images/ct_panel_demo.png)
-
     test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
 
 - layout: top-middle
