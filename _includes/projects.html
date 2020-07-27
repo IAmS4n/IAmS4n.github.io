@@ -10,11 +10,10 @@
             </a>
             {%- endif -%}
             {%- if project.youtube_video -%}
-            <iframe class="side_image" src="https://www.youtube.com/embed/{{project.youtube_video}}" frameborder="0"
+            <iframe class="side_image" height="250" src="https://www.youtube.com/embed/{{project.youtube_video}}" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             {%- endif -%}
-
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 details">
             <h4>{{ project.name }}</h4>
