@@ -35,6 +35,6 @@
 - layout: top-middle
   name: Pipelined MIPS CPU
   github: IAmS4n/Pipelined-MIPS-Verilog
+  image: /images/mips.jpg
   description: |
-    <a class="example-image-link" href="/images/mips.jpg" data-lightbox="example-1"><img class="example-image" src="/images/mips.jpg" alt="<" /></a>
     test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
