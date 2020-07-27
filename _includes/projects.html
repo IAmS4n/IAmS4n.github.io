@@ -1,6 +1,30 @@
 <div class="container projects-container">
-  <h3>{{ site.projects_title | default: "Projects" }}</h3>
-  {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
-  {% endfor %}
+    <h3>{{ site.projects_title | default: "Projects" }}</h3>
+    {% for project in site.data.projects %}
+    <div class="row clearfix layout layout-left">
+
+        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+            {%- if project.image -%}
+            <a class="example-image-link" href="{{project.image}}" data-lightbox="{{ project.name }}">
+                <img class="side_image" src="{{project.image}}" alt="{{ project.name }}"/>
+            </a>
+            {%- endif -%}
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 details">
+            <h4>{{ project.name }}</h4>
+
+            {%- if project.github -%}
+            <p class="no-print">
+                <a href="https://github.com/{{ project.github }}" target="_blank">
+                    <i class="fa fa-github" title="{{ project.name }} Github link"></i>
+                </a>
+            </p>
+            {%- endif -%}
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+            {{ project.description | strip | markdownify}}
+        </div>
+    </div>
+    {% endfor %}
 </div>
+
