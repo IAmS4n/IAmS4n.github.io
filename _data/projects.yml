@@ -17,7 +17,7 @@
     I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
     The programming language that is used in this project was **C++**.
 
-    As you can see in the left video, there is a fixed camera above the robot. The camera is connected to a computer and the position and angle of the robot are detects using the robot's marker pattern. The computer wirelessly sends commands which describe the PWD rate and working time for each of four motors. the robot utilizes an **AVR microcontroller** for the execution of the commands.
+    As you can see in the left video, there is a fixed camera above the robot. The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern. The computer wirelessly sends commands which describe the PWD rate and working time for each of four motors. the robot utilizes an **AVR microcontroller** for the execution of these commands.
 
 - layout: top-middle
   name: Skyline
