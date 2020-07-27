@@ -19,6 +19,10 @@
         </a>
       </p>
     {%- endif -%}
+
+    {%- if include.item.image -%}
+      <a class="example-image-link" href="{{include.item.image}}" data-lightbox="example-1"><img class="example-image" src="{{include.item.image}}" alt="{{ include.item.name }}" /></a>
+    {%- endif -%}
   </div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
     {%- if include.item.quote -%}
