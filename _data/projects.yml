@@ -24,7 +24,7 @@
 #    test
 
 - name: Brain EEG Signal
-  image: /images/eeg.png
+  image: /images/brain.png
   description: |
     Different ML models are tested on the EEG signal to recognize some humans' actions from their brains.
     Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
