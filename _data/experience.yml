@@ -1,6 +1,5 @@
-# Experience template
 - layout: left
-  company: Sharif University of Technology
+  company: Machine Learning Lab, Sharif University of Technology
   #  link: Link to company (optional)
   job_title: Researcher
   dates: 2019 - present
@@ -14,13 +13,13 @@
   job_title: Teacher Assistant
   description: |
     **Spring 2019:**
-    + Deep Learning (Graduate Course)
+    + [Deep Learning (Graduate Course)](http://ce.sharif.edu/courses/97-98/2/ce959-1/index.php/section/syllabus/file/syllabus)
 
     **Fall 2018:**
-    + Machine Learning (Graduate Course)
+    + [Machine Learning (Graduate Course)](http://ce.sharif.edu/courses/97-98/1/ce717-2/index.php/section/syllabus/file/syllabus)
 
     **Spring 2018:**
-    +  [Head TA of] Probabilistic Graphical Models (Graduate Course)
+    +  [*Head TA of* Probabilistic Graphical Models (Graduate Course)](http://ce.sharif.edu/courses/96-97/2/ce768-1/index.php/section/syllabus/file/syllabus)
 
     **Fall 2017:**
     + Modern Information Retrieval
@@ -31,5 +30,7 @@
   link: http://ipm.ir
   job_title: Summer Intern
   dates: summer 2015
-  description: | # this will include new lines to allow paragraphs
-    My primary task was research on finding a high-speed solution for dynamic skyline problem under the supervision of Dr.&nbsp;Saeid Gorgin.
+  description: |
+    The learning phase of the internship was about the parallelization technique in computers. My focus was on CPU parallelization and learning of related libraries and techniques in C++. Also, I experienced a deeper understanding of compilers for improving performance.
+
+    After the learning phase, my primary task was research on finding a high-speed solution for Dynamic Skyline Problem under the supervision of Dr.&nbsp;Saeid Gorgin. I utilized my algorithm and data structure experience plus the learned technique for doing my task successfully by winning the prize of an international contest.

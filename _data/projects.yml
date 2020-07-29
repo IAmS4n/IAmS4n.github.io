@@ -1,15 +1,4 @@
-## Project template
-#- layout: top-middle
-#  name: Project name
-#  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-#  quote: >
-#    Short overview of the project (optional)
-#  description: | # this will include new lines to allow paragraphs
-#    Description about the work on/with the project
-
-- layout: top-middle
-  name: Vision-based 360-degree Robot
+- name: Vision-based 360-degree Robot
   youtube_video: ZQ_D5UqUvxY
   description: |
     Design and construction of a mobile robot with the ability to move to specific points on a board.
@@ -17,24 +6,56 @@
     I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
     The programming language that is used in this project was **C++**.
 
-    As you can see in the left video, there is a fixed camera above the robot. The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern. The computer wirelessly sends commands which describe the PWD rate and working time for each of four motors. the robot utilizes an **AVR microcontroller** for the execution of these commands.
+    As you can see in the left video, there is a fixed camera above the robot.
+    The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern.
+    The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
+    the robot utilizes an **AVR microcontroller** for the execution of these commands.
 
-- layout: top-middle
-  name: Skyline
+- name: Visual Question Answering
+  image: /images/vqa_logo.png
+  description: |
+    Investigation on [VQA dataset](https://visualqa.org/vqa_v1_download.html).
+    **TensorFlow** is utilized for the implementation of a solution based on CNN and RNN architectures plus some ideas such as Attention and Positional features.
+
+#- name: Matrix Factorization
+##  github: IAmS4n/CTLabeling
+##  image: /images/ct_panel_demo.png
+#  description: |
+#    test
+
+- name: Brain EEG Signal
+  image: /images/eeg.png
+  description: |
+    Different ML models are tested on the EEG signal to recognize some humans' actions from their brains.
+    Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
+    The implementation utilizes **Scikit-Learn**.
+
+- name: Dynamic Skyline Problem
   image: /images/skyline.png
   description: |
-    test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
+    Design and implementation of a high-performance and distributed solution to the Dynamic Skyline Problem.
+    The most important part of the implementation is using **data structures** such as the RedBlack tree.
+    The implementation utilizes **C++** ans **OpenMP** library.
+    Also, the problem was the challenge of an international competition (MEMOCODE 2015) and second place was achieved.
 
-- layout: top-middle
-  name: Privacy-focused DICOM web panel
+- name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
   image: /images/ct_panel_demo.png
   description: |
-    test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
+    The web system is developed based on **Flask framework** for the easy labeling of DICOM images with Privacy protection.
+    The system is used for connecting to an AI system.
+    Also, the system is prepared for use in an **Active Learning scenario**.
 
-- layout: top-middle
-  name: Pipelined MIPS CPU
-  github: IAmS4n/Pipelined-MIPS-Verilog
+- name: Ink Saver
+  image: /images/ink_saver.jpg
+  description: |
+    A tool to simply slides and document images for saving the ink of the printers.
+    **OpenCV** and **Scikit-Image** libraries are utilized for image processing and **Flask framework** for the interface.
+    I solve the problem of slides' background by considering slides as a video and using the video background removal techniques.
+
+- name: MIPS CPU with Pipeline
+  github: IAmS4n/MIPS-CPU-VHDL
   image: /images/mips.jpg
   description: |
-    test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
+    A **MIPS CPU with Pipeline** which described in Patterson's book using **VHDL**.
+    Also, an **assembler** is developed for using the CPU.
