@@ -38,6 +38,12 @@
     The system is used for connecting to an AI system.
     Also, the system is prepared for use in an **Active Learning scenario**.
 
+- name: English With Movie
+  image: /images/lang.png
+  description: |
+    INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT
+
+
 - name: Ink Saver
   image: /images/ink_saver.jpg
   description: |
