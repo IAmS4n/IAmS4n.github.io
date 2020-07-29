@@ -59,9 +59,9 @@ function toggle_abstract(name){
                         </li>
                     {%- endif -%}
                 </ul>
+            </div>
 
-
-
+            <div class="col-xs-12 col-print-12">
                 {%- if publication.short_abstract and publication.abstract  -%}
                     <div id="short_abstract{{ publication.title | cgi_escape }}" style="text-align:left;">
                         <p >
