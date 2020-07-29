@@ -30,14 +30,6 @@
     Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
     The implementation utilizes **Scikit-Learn**.
 
-- name: Dynamic Skyline Problem
-  image: /images/skyline.png
-  description: |
-    Design and implementation of a high-performance and distributed solution to the Dynamic Skyline Problem.
-    The most important part of the implementation is using **data structures** such as the RedBlack tree.
-    The implementation utilizes **C++** ans **OpenMP** library.
-    Also, the problem was the challenge of an international competition (MEMOCODE 2015) and second place was achieved.
-
 - name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
   image: /images/ct_panel_demo.png
@@ -52,6 +44,14 @@
     A tool to simply slides and document images for saving the ink of the printers.
     **OpenCV** and **Scikit-Image** libraries are utilized for image processing and **Flask framework** for the interface.
     I solve the problem of slides' background by considering slides as a video and using the video background removal techniques.
+
+- name: Dynamic Skyline Problem
+  image: /images/skyline.png
+  description: |
+    Design and implementation of a high-performance and distributed solution to the Dynamic Skyline Problem.
+    The most important part of the implementation is using **data structures** such as the RedBlack tree.
+    The implementation utilizes **C++** ans **OpenMP** library.
+    Also, the problem was the challenge of an international competition (MEMOCODE 2015) and second place was achieved.
 
 - name: MIPS CPU with Pipeline
   github: IAmS4n/MIPS-CPU-VHDL

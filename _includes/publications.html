@@ -64,7 +64,7 @@ function toggle_abstract(name){
             <div class="col-xs-12 col-print-12">
                 {%- if publication.short_abstract and publication.abstract  -%}
                     <div id="short_abstract{{ publication.title | cgi_escape }}" style="text-align:left;">
-                        <p >
+                        <p>
                             {{ publication.short_abstract | strip | markdownify| remove: '<p>' | remove: '</p>' }}
                             <a onclick="toggle_abstract('{{ publication.title | cgi_escape }}')" style="display: inline-block;color:#f9e79f;cursor:pointer;" >
                                  (More <i class="fa fa-angle-double-right" ></i>)
