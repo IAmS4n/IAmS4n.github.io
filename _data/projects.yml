@@ -41,10 +41,13 @@
 - name: English With Movie
   image: /images/lang.png
   description: |
-    A player to utilize movies for practicing language skills.
-    The player gets a movie and two language subtitles, then it plays video dialog by dialog with automatic pause and shows two language subtitles simultaneously.
-    It has some mode for practice different skills, hiding subtitles for listening skill, mute the video for speaking skill.
-    The implementation is based on **JavaScript**.
+    A web-based video player to utilize movies for practicing language skills.
+    The player gets a movie with two language subtitles, then it plays video dialog by dialog with an automatic pause and shows two subtitles simultaneously.
+    It has some combinations of different modes for practicing different skills.
+    The listening part is based on hiding the subtitles and normal play of the video.
+    The speaking part is based on showing just subtitle that is related to native language and muting the video.
+    **JavaScript** is the language that I used for the interface and **python** for the backend.
+
 
 - name: Ink Saver
   image: /images/ink_saver.jpg
