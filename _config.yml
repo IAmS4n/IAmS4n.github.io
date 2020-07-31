@@ -49,9 +49,9 @@ gtag: "UA-142543208-2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://avatars3.githubusercontent.com/u/6833210
 about_content: | # this will include new lines to allow paragraphs
-  I hold an M.Sc. degree in Artificial intelligence from the Sharif University of Technology. I have been working as a researcher in the Machine Learning Lab at the Sharif University of Technology since I graduated. My research interest is machine learning, especially deep learning. My master thesis was about the generative models and usage of adversarial training for sequence generation. My current research is about medical images and especially gigapixel histopathology images. Also, I have experience of some multidisciplinary research. I worked on the usage of GANs in cosmology for cosmic string simulation. I have collaborated with physicians for the segmentation and classification tasks of CT and MRI images.
+  I hold M.Sc. degree in Artificial intelligence from the Sharif University of Technology. I have been working as a researcher in the Machine Learning Lab at the Sharif University of Technology since I graduated. My research interest is Machine Learning, especially Deep Learning. My master thesis was about the generative models and usage of adversarial training for sequence generation. currently, I am working on gigapixel histopathology images. Also, I have some experiences in multidisciplinary research including usage of GANs in cosmology for cosmic string simulation, and working on different segmentation and classification tasks of 3D images such as CT and MRI.
 
-  I am fascinated by automation and the practical use of science in real life. Also, I am interested in theory for utilizing in practice.
+  I am fascinated by automation and the practical use of AI in real life. The application of theory for practical solutions is the most interesting way of research for me. Dealing with challenges and solving problems is one of my main interests, and I have experienced in different competitions which are mentioned below.
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
