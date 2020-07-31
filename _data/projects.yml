@@ -41,8 +41,10 @@
 - name: English With Movie
   image: /images/lang.png
   description: |
-    INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT INIT
-
+    A player to utilize movies for practicing language skills.
+    The player gets a movie and two language subtitles, then it plays video dialog by dialog with automatic pause and shows two language subtitles simultaneously.
+    It has some mode for practice different skills, hiding subtitles for listening skill, mute the video for speaking skill.
+    The implementation is based on **JavaScript**.
 
 - name: Ink Saver
   image: /images/ink_saver.jpg
