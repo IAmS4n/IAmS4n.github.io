@@ -36,93 +36,93 @@
     + Semi-finalist at 20th National Computer Olympiad
     + Semi-finalist at 6th National Astronomy Olympiad
 
-###############################################################################################################
-###############################################################################################################
-#- layout: top-middle
-#  name: Machine Learning Contests
-###############################################################################################################
-#- layout: left
-#  job_title: ISBI 2020, USA
-#  link: http://2020.biomedicalimaging.org
-#  dates: Apr 2020
-#  description: |
-#    [**Ranked 5th** in the MoNuSAC 2020 (**Ranked 3rd** in Post-Challenge Leaderboard)](https://monusac-2020.grand-challenge.org/Results/)
-#
-#    I was one of the three members of the *Sharif HooshPardaz* Team. We were invited to present our method in the MoNuSAC 2020 Workshop.
-#
-#- layout: left
-#  job_title: ECDP 2020, Portugal
-#  link: http://ecdp2020.org
-#  dates: Jan 2020
-#  description: |
-#    [**Ranked 3rd** in the HEROHE ECDP 2020](https://ecdp2020.grand-challenge.org/RESULTS/)
-#
-#    I participated individually with the *Piaz* as the team name. Also, My method was the best method based on the AUC metric.
-#
-#- layout: left
-#  job_title: Sharif University of Technology
-#  dates: Mar 2019
-#  description: |
-#    [**Ranked 3rd among more than 300 teams** in the Sharif Data Days 2019](/certificates/DataDays.jpg)
-#
-#    I was one of the two members of the *KIVI* Team.
-#
-#- layout: left
-#  job_title: National Brain Mapping Lab, Iran
-#  link: http://nbml.ir/EN
-#  dates: Dec 2017
-#  description: |
-#    [**Ranked 1st** team in the first Iranian BCI Competition (iBCIC)](/certificates/iBCIC.jpg)
-#
-#    I was one of the two members of the *OCD* Team.
-#
-###############################################################################################################
-###############################################################################################################
-#- layout: top-middle
-#  name: Programming Contests
-###############################################################################################################
-#- layout: left
-#  job_title: Texas at Austin University, USA
-#  link: http://memocode.irisa.fr/2015/
-#  dates: July 2015
-#  description: |
-#    [**Ranked 2nd** team in MEMOCODE Co-Design Contest’15](http://memocode.irisa.fr/2015/designcontest.html)
-#
-#    We were invited to present our method in the 2015 ACM/IEEE International Conference on Formal Methods and Models for Codesign.
-#
-#- layout: left
-#  job_title: ICPC, West Asia Region
-#  jobs:
-#    - dates: Dec 2015
-#    - dates: Dec 2014
-#  description: |
-#    Our team was selected to participate in the West Asia Region of ACM/ICPC at the Sharif University site for two years, And we ranked 10th and 12th:
-#    + [**Ranked 10th** in the ACM/**ICPC** Collegiate Programming Contest, 2015](/certificates/ICPC2015.pdf)
-#    + [**Ranked 12th** in the ACM/**ICPC** Collegiate Programming Contest, 2014](/certificates/ICPC2014.pdf)
-#
-###############################################################################################################
-###############################################################################################################
-#- layout: top-middle
-#  name: Computer Security Contests
-###############################################################################################################
-#- layout: left
-#  job_title: Sharif University of Technology
-#  jobs:
-#    - dates: Feb 2018
-#    - dates: Dec 2016
-#    - dates: Feb 2016
-#  description: |
-#    I was a [**CTF player**](https://ctftime.org/ctf-wtf/) as a member of the team, I was working usually on **Cryptography** challenges and sometimes on Forensics and Web challenges.
-#     + **Ranked 4th among 682 teams** (ranked 1st among Iranian teams) in the eighth international online security contest
-#     + **Ranked 1st among 700 teams** in the seventh international online security contest
-#     + **Ranked 1st among Iranian teams** in the sixth international online security contest
-#
-#- layout: left
-#  job_title: Sharif University of Technology
-#  jobs:
-#    - dates: Feb 2015
-#    - dates: Nov 2013
-#  description: |
-#    The contest was about finding crime in a simulated world which was provided in virtual computers. I won the first prize for two years.
-#     + **Ranked 1st** in **Computer Forensics** section of the 5th security contest
-#     + **Ranked 1st** in **Computer Forensics** section of the 4th security contest
+##############################################################################################################
+##############################################################################################################
+- layout: top-middle
+  name: Machine Learning Contests
+##############################################################################################################
+- layout: left
+  job_title: ISBI 2020, USA
+  link: http://2020.biomedicalimaging.org
+  dates: Apr 2020
+  description: |
+    [**Ranked 5th** in the MoNuSAC 2020 (**Ranked 3rd** in Post-Challenge Leaderboard)](https://monusac-2020.grand-challenge.org/Results/)
+
+    I was one of the three members of the *Sharif HooshPardaz* Team. We were invited to present our method in the MoNuSAC 2020 Workshop.
+
+- layout: left
+  job_title: ECDP 2020, Portugal
+  link: http://ecdp2020.org
+  dates: Jan 2020
+  description: |
+    [**Ranked 3rd** in the HEROHE ECDP 2020](https://ecdp2020.grand-challenge.org/RESULTS/)
+
+    I participated individually with the *Piaz* as the team name. Also, My method was the best method based on the AUC metric.
+
+- layout: left
+  job_title: Sharif University of Technology
+  dates: Mar 2019
+  description: |
+    [**Ranked 3rd among more than 300 teams** in the Sharif Data Days 2019](/certificates/DataDays.jpg)
+
+    I was one of the two members of the *KIVI* Team.
+
+- layout: left
+  job_title: National Brain Mapping Lab, Iran
+  link: http://nbml.ir/EN
+  dates: Dec 2017
+  description: |
+    [**Ranked 1st** team in the first Iranian BCI Competition (iBCIC)](/certificates/iBCIC.jpg)
+
+    I was one of the two members of the *OCD* Team.
+
+##############################################################################################################
+##############################################################################################################
+- layout: top-middle
+  name: Programming Contests
+##############################################################################################################
+- layout: left
+  job_title: Texas at Austin University, USA
+  link: http://memocode.irisa.fr/2015/
+  dates: July 2015
+  description: |
+    [**Ranked 2nd** team in MEMOCODE Co-Design Contest’15](http://memocode.irisa.fr/2015/designcontest.html)
+
+    We were invited to present our method in the 2015 ACM/IEEE International Conference on Formal Methods and Models for Codesign.
+
+- layout: left
+  job_title: ICPC, West Asia Region
+  jobs:
+    - dates: Dec 2015
+    - dates: Dec 2014
+  description: |
+    Our team was selected to participate in the West Asia Region of ACM/ICPC at the Sharif University site for two years, And we ranked 10th and 12th:
+    + [**Ranked 10th** in the ACM/**ICPC** Collegiate Programming Contest, 2015](/certificates/ICPC2015.pdf)
+    + [**Ranked 12th** in the ACM/**ICPC** Collegiate Programming Contest, 2014](/certificates/ICPC2014.pdf)
+
+##############################################################################################################
+##############################################################################################################
+- layout: top-middle
+  name: Computer Security Contests
+##############################################################################################################
+- layout: left
+  job_title: Sharif University of Technology
+  jobs:
+    - dates: Feb 2018
+    - dates: Dec 2016
+    - dates: Feb 2016
+  description: |
+    I was a [**CTF player**](https://ctftime.org/ctf-wtf/) as a member of the team, I was working usually on **Cryptography** challenges and sometimes on Forensics and Web challenges.
+     + **Ranked 4th among 682 teams** (ranked 1st among Iranian teams) in the eighth international online security contest
+     + **Ranked 1st among 700 teams** in the seventh international online security contest
+     + **Ranked 1st among Iranian teams** in the sixth international online security contest
+
+- layout: left
+  job_title: Sharif University of Technology
+  jobs:
+    - dates: Feb 2015
+    - dates: Nov 2013
+  description: |
+    The contest was about finding crime in a simulated world which was provided in virtual computers. I won the first prize for two years.
+     + **Ranked 1st** in **Computer Forensics** section of the 5th security contest
+     + **Ranked 1st** in **Computer Forensics** section of the 4th security contest
