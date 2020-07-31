@@ -47,7 +47,7 @@
 - name: Ink Saver
   image: /images/ink_saver.jpg
   description: |
-    A tool to simply slides and document images for saving the ink of the printers.
+    A tool to simplify slides and document images for saving the ink of the printers.
     **OpenCV** and **Scikit-Image** libraries are utilized for image processing and **Flask framework** for the interface.
     I solve the problem of slides' background by considering slides as a video and using the video background removal techniques.
 

@@ -3,13 +3,14 @@
 
 {%- include head.html -%}
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
-{%- include header.html -%}
 
 {%- if site.graph_animation -%}
 <div id="particles-js" style="position:fixed;"></div>
 <script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/app.js' | relative_url }}"></script>
 {%- endif -%}
+
+{%- include header.html -%}
 
 
 <main class="page-content" aria-label="Content">
