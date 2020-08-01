@@ -68,5 +68,5 @@
   github: IAmS4n/MIPS-CPU-VHDL
   image: /images/mips.jpg
   description: |
-    A **MIPS CPU with Pipeline** which described in Patterson's book using **VHDL**.
+    A MIPS CPU with Pipeline which described in Patterson's book is simulated using **VHDL**.
     Also, an **assembler** is developed for using the CPU.
