@@ -1,15 +1,3 @@
-<script>
-function toggle_div(name_id){
-  text = document.getElementById("div_id_long_"+name_id);
-  short_text = document.getElementById("div_id_short_"+name_id);
-  if(text.style.display == "none"){
-    text.style.display = "";
-    short_text.style.display = "none";
-  }
-};
-</script>
-
-
 <div class="container publications-container">
     <h3>{{ site.publications_title | default: "Publications" }}</h3>
     {% for publication in site.data.publications %}

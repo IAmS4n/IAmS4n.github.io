@@ -5,7 +5,12 @@
   qualification: Masters of Artificial Intelligence
 #  quote: >
 #      Supervisor : Dr.&nbsp;Mahdieh Soleymani Baghshah
-  short_description: testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+  short_description: |
+    **Courses Taken :**
+        Deep Learning, Probabilistic Graphical Models, Machine Learning, Stochastic Processes, Digital image processing, Digital Signal Processing, Signal Processing, Social and Economics Networks
+
+    My thesis explored the GANs usage in discrete sequence generation, especially text generation.
+
   description: |
     **Courses Taken :**
         Deep Learning, Probabilistic Graphical Models, Machine Learning, Stochastic Processes, Digital image processing, Digital Signal Processing, Signal Processing, Social and Economics Networks

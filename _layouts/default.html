@@ -56,6 +56,18 @@
 {% endif %}
 <script src="{{ '/assets/js/lightbox-plus-jquery.min.js' | relative_url }}"></script>
 
+<script>
+function toggle_div(name_id){
+  text = document.getElementById("div_id_long_"+name_id);
+  short_text = document.getElementById("div_id_short_"+name_id);
+  if(text.style.display == "none"){
+    text.style.display = "";
+    short_text.style.display = "none";
+  }
+};
+
+</script>
+
 </body>
 
 </html>
