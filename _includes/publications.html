@@ -7,7 +7,7 @@
                 <h4><a href="{{publication.link|URI Escape}}" target="_blank">{{ publication.title }}</a></h4>
 
                 <p style="color:#f9e79f;">
-                    {{ publication.details | strip | markdownify| remove: '<p>' | remove: '</p>'}}
+                    {{ publication.details | strip | markdownify | ltrim: '<p>' | rtrim: '</p>'}}
                 </p>
 
                 <ul class="no-print" style="display: inline-block;">
@@ -53,13 +53,13 @@
                 {%- if publication.short_abstract and publication.abstract  -%}
                     <div id="div_id_long_abstract_{{ forloop.index }}" style="text-align:left;display: none;">
                         <p style="text-align: justify;">
-                            {{ publication.abstract | strip | markdownify | remove: '<p>' | remove: '</p>' }}
+                            {{ publication.abstract | strip | markdownify | ltrim: '<p>' | rtrim: '</p>' }}
                         </p>
                     </div>
 
                     <div id="div_id_short_abstract_{{ forloop.index }}" style="text-align:left;">
                         <p>
-                            {{ publication.short_abstract | strip | markdownify | remove: '<p>' | remove: '</p>' }}
+                            {{ publication.short_abstract | strip | markdownify | ltrim: '<p>' | rtrim: '</p>' }}
                             <a onclick="toggle_div('abstract_{{ forloop.index }}')" style="display: inline-block;color:#f9e79f;cursor:pointer;" >
                                  (More <i class="fa fa-angle-double-right" ></i>)
                             </a>
