@@ -27,14 +27,12 @@
 
     {%- if include.item.short_description -%}
         <div id="div_id_long_{{include.id_prefix}}_{{ forloop.index }}" style="display: none;">
-            <p>
-                {{ include.item.description | strip | markdownify | remove: '<p>' | remove: '</p>' }}
-            </p>
+            {{ include.item.description | strip | markdownify }}
         </div>
 
         <div id="div_id_short_{{include.id_prefix}}_{{ forloop.index }}">
             <p>
-                {{ include.item.short_description | strip | markdownify | remove: '<p>' | remove: '</p>' }}
+                {{ include.item.short_description | strip | markdownify }}
                 <a onclick="toggle_div('{{include.id_prefix}}_{{ forloop.index }}')" style="display: inline-block;color:#f9e79f;cursor:pointer;" >
                      (More <i class="fa fa-angle-double-right" ></i>)
                 </a>
