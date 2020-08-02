@@ -27,8 +27,6 @@
 
     test {{item} test
 
-    {%- else -%}
-      {{ include.item.description | strip | markdownify }}
-    {%- endif -%}
+    {{ include.item.description | strip | markdownify }}
   </div>
 </div>
