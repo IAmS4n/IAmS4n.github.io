@@ -31,7 +31,7 @@
         </div>
 
         <div id="div_id_short_{{include.id_prefix}}_{{ forloop.index }}">
-            {{ include.item.short_description | strip | markdownify | append: 'UN1Q5Tr1Ng' | remove: "</p>\nUN1Q5Tr1Ng" }}
+            {{ include.item.short_description | strip | markdownify | rstrip | append: 'UN1Q5Tr1Ng' | remove: "</p>UN1Q5Tr1Ng" }}
             <a onclick="toggle_div('{{include.id_prefix}}_{{ forloop.index }}')" style="display: inline-block;color:#f9e79f;cursor:pointer;" >
                  (More <i class="fa fa-angle-double-right" ></i>)
             </a></p>
