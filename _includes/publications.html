@@ -1,7 +1,7 @@
 <script>
-function toggle_abstract(name){
-  text = document.getElementById("abstract"+name);
-  short_text = document.getElementById("short_abstract"+name);
+function toggle_abstract(id){
+  text = document.getElementById("div_id_"+id);
+  short_text = this.parentElement;
   if(text.style.display == "none"){
     text.style.display = "";
     short_text.style.display = "none";
@@ -63,16 +63,16 @@ function toggle_abstract(name){
 
             <div class="col-xs-12 col-print-12">
                 {%- if publication.short_abstract and publication.abstract  -%}
-                    <div id="abstract{{ publication.title | cgi_escape }}" style="text-align:left;display: none;">
+                    <div id="div_id_abstract_{{ forloop.index }}" style="text-align:left;display: none;">
                         <p style="text-align: justify;">
                             {{ publication.abstract | strip | markdownify | remove: '<p>' | remove: '</p>' }}
                         </p>
                     </div>
 
-                    <div id="short_abstract{{ publication.title | cgi_escape }}" style="text-align:left;">
+                    <div id="div_id_short_abstract_{{ forloop.index }}" style="text-align:left;">
                         <p>
                             {{ publication.short_abstract | strip | markdownify | remove: '<p>' | remove: '</p>' }}
-                            <a onclick="toggle_abstract('{{ publication.title | cgi_escape }}')" style="display: inline-block;color:#f9e79f;cursor:pointer;" >
+                            <a onclick="toggle_abstract('short_abstract_{{ forloop.index }}')" style="display: inline-block;color:#f9e79f;cursor:pointer;" >
                                  (More <i class="fa fa-angle-double-right" ></i>)
                             </a>
                         </p>
