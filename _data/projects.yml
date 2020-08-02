@@ -1,15 +1,9 @@
-- name: Vision-based 360-degree Robot
-  youtube_video: ZQ_D5UqUvxY
+- name: Brain EEG Signal
+  image: /images/brain.png
   description: |
-    Design and construction of a mobile robot with the ability to move to specific points on a board.
-
-    I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
-    The programming language that is used in this project was **C++**.
-
-    As you can see in the left video, there is a fixed camera above the robot.
-    The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern.
-    The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
-    the robot utilizes an **AVR microcontroller** for the execution of these commands.
+    Different ML models are tested on the EEG signal to recognize some humans' actions from their brains.
+    Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
+    The implementation utilizes **Scikit-Learn**.
 
 - name: Visual Question Answering
   image: /images/vqa_logo.png
@@ -23,12 +17,18 @@
 #  description: |
 #    test
 
-- name: Brain EEG Signal
-  image: /images/brain.png
+- name: Vision-based 360-degree Robot
+  youtube_video: ZQ_D5UqUvxY
   description: |
-    Different ML models are tested on the EEG signal to recognize some humans' actions from their brains.
-    Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
-    The implementation utilizes **Scikit-Learn**.
+    Design and construction of a mobile robot with the ability to move to specific points on a board.
+
+    I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
+    The programming language that is used in this project was **C++**.
+
+    As you can see in the left video, there is a fixed camera above the robot.
+    The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern.
+    The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
+    the robot utilizes an **AVR microcontroller** for the execution of these commands.
 
 - name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
