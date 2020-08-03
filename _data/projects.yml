@@ -33,6 +33,10 @@
     The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
     the robot utilizes an **AVR microcontroller** for the execution of these commands.
 
+#########################################################################################################################
+- name: <hr>
+#########################################################################################################################
+
 - name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
   image: /images/ct_panel_demo.png
