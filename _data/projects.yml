@@ -4,14 +4,21 @@
     Investigation on [VQA dataset](https://visualqa.org/vqa_v1_download.html).
     **TensorFlow** is utilized for the implementation of a solution based on CNN and RNN architectures plus some ideas such as Attention and Positional features.
 
-- name: Deep Q-Networks for playing Atari
-  image: /images/breakout.gif
-#  description: |
+#- name: Deep Q-Networks for playing Atari
+#  image: /images/breakout.gif
+##  description: |
 
 - name: Matrix Factorization
   image: /images/PGM.png
 #  description: |
 #    test
+
+- name: Brain EEG Signal
+  image: /images/brain.png
+  description: |
+    Different ML models are tested on the EEG signal to recognize some humans' actions from their brains.
+    Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
+    The implementation utilizes **Scikit-Learn**.
 
 - name: Vision-based 360-degree Robot
   youtube_video: ZQ_D5UqUvxY
@@ -25,13 +32,6 @@
     The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern.
     The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
     the robot utilizes an **AVR microcontroller** for the execution of these commands.
-
-- name: Brain EEG Signal
-  image: /images/brain.png
-  description: |
-    Different ML models are tested on the EEG signal to recognize some humans' actions from their brains.
-    Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
-    The implementation utilizes **Scikit-Learn**.
 
 - name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
