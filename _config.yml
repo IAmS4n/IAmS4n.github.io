@@ -47,7 +47,7 @@ gtag: "UA-142543208-2"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: https://avatars3.githubusercontent.com/u/6833210
+about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I hold M.S. degree in Artificial intelligence from the Sharif University of Technology.
   I have been working as a researcher in the Machine Learning Lab at the Sharif University of Technology since I graduated.
