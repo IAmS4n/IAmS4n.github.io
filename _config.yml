@@ -8,7 +8,7 @@ title: Machine Learning Researcher
 email: ehsan.montahaei@gmail.com
 #phone: Your phone number (optional)
 website: https://iams4n.github.io
-cv: cv.pdf
+#cv: cv.pdf
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -53,8 +53,8 @@ about_content: | # this will include new lines to allow paragraphs
   I have been working as a researcher in the Machine Learning Lab at the Sharif University of Technology since I graduated.
   My research interest is **Machine Learning**, especially **Deep Learning**.
   My master thesis was about the **generative models** and usage of adversarial training for **sequence generation**.
-  Currently, I am working on **gigapixel histopathology** images.
-  Also, I have some experiences in multidisciplinary research including usage of **GANs** in cosmology for cosmic string simulation, and working on different segmentation and classification tasks of **3D images** such as CT and MRI.
+  Currently, I am working on **Computer Vision** with application in **Gigapixel Histopathology** images.
+  Also, I have some experiences in multidisciplinary research including usage of **GANs** in cosmology for Cosmic String simulation, and working on different segmentation and classification tasks of **3D images** such as CT and MRI.
 
   I am fascinated by automation and the practical use of AI in real life.
   The application of theory for **practical solutions** is the most interesting part of the research for me.

@@ -4,14 +4,14 @@
     Investigation on [VQA dataset](https://visualqa.org/vqa_v1_download.html).
     **TensorFlow** is utilized for the implementation of a solution based on CNN and RNN architectures plus some ideas such as Attention and Positional features.
 
-#- name: Deep Q-Networks for playing Atari
-#  image: /images/breakout.gif
-##  description: |
-
 - name: Matrix Factorization
+  github: IAmS4n/Matrix-Factorization
   image: /images/PGM.png
-#  description: |
-#    test
+  description: |
+    Finding of the missed values in the adjacency matrix of a big undirected weighted graph by utilizing **probabilistic graphical models**.
+    The adjacency matrix's values were modeled with Poisson distribution and Gamma prior.
+    Three approaches were investigated for solving the problem including **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
+    I experienced calculation and parallel implementation of these methods.
 
 - name: Brain EEG Signal
   image: /images/brain.png
@@ -28,14 +28,10 @@
     I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
     The programming language that is used in this project was **C++**.
 
-    As you can see in the left video, there is a fixed camera above the robot.
+    As you can see in the video, there is a fixed camera above the robot.
     The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern.
     The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
-    the robot utilizes an **AVR microcontroller** for the execution of these commands.
-
-#########################################################################################################################
-- name: <hr>
-#########################################################################################################################
+    The robot utilizes an **AVR microcontroller** for the execution of these commands.
 
 - name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
@@ -45,7 +41,7 @@
     The system is used for connecting to an AI system.
     Also, the system is prepared for use in an **Active Learning scenario**.
 
-- name: English With Movie
+- name: English with Movie
   image: /images/lang.png
   description: |
     A web-based video player to utilize movies for practicing language skills.
@@ -54,7 +50,6 @@
     The listening part is based on hiding the subtitles and normal play of the video.
     The speaking part is based on showing just subtitle that is related to native language and muting the video.
     **JavaScript** is the language that I used for the interface and **python** for the backend.
-
 
 - name: Ink Saver
   image: /images/ink_saver.jpg
