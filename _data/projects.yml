@@ -1,4 +1,5 @@
 - name: Visual Question Answering
+  github: IAmS4n/Visual-Question-Answering
   image: /images/vqa_logo.png
   description: |
     Investigation on [VQA dataset](https://visualqa.org/vqa_v1_download.html).
