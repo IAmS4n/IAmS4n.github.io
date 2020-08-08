@@ -43,11 +43,11 @@
     Also, the system is prepared for use in an **Active Learning scenario**.
 
 - name: English with Movie
-  github: IAmS4n/English-With-Movie
+  github: IAmS4n/English_with_Movie
   image: /images/lang.png
   description: |
     A web-based video player to utilize movies for practicing language skills.
-    You can see a demo for Persian speakers in [this link](https://iams4n.github.io/English_with_Movie/).
+    There is a demo for Persian speakers in [this link](https://iams4n.github.io/English_with_Movie/).
     The player gets a movie with two language subtitles, then it plays video dialog by dialog with an automatic pause and shows two subtitles simultaneously.
     It has some combinations of different modes for practicing different skills.
     The listening part is based on hiding the subtitles and normal play of the video.
