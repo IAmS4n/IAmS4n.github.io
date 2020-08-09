@@ -6,21 +6,20 @@
 #  quote: >
 #      Supervisor : Dr.&nbsp;Mahdieh Soleymani Baghshah
   short_description: |
-    **Courses Taken :**
-        Deep Learning, Probabilistic Graphical Models, Machine Learning, Stochastic Processes, Digital image processing, Digital Signal Processing, Signal Processing, Social and Economics Networks
-
     My thesis explored the GANs usage in discrete sequence generation, especially text generation.
+    **Courses Taken :**
+
+    Deep Learning, Probabilistic Graphical Models, Machine Learning, Stochastic Processes, Digital image processing, Digital Signal Processing, Signal Processing, Social and Economics Networks
 
   description: |
-    **Courses Taken :**
-        Deep Learning, Probabilistic Graphical Models, Machine Learning, Stochastic Processes, Digital image processing, Digital Signal Processing, Signal Processing, Social and Economics Networks
-
     My thesis explored the GANs usage in discrete sequence generation, especially text generation.
     I found some shortage in one of the common evaluation scenarios, and a new metric was introduced for enhancement of evaluation.
     Also, a new method supporting theoretical analysis was introduced which were comparable to the state of the art methods.
 
     The thesis (in Persian) and related publications are available in [*this repository*](https://github.com/IAmS4n/My-Msc-Thesis).
+    **Courses Taken :**
 
+    Deep Learning, Probabilistic Graphical Models, Machine Learning, Stochastic Processes, Digital image processing, Digital Signal Processing, Signal Processing, Social and Economics Networks
 
 - layout: left
   name: Bachelor of Software Engineering

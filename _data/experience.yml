@@ -2,8 +2,10 @@
   company: Research Assistant
   job_title: Machine Learning Lab, Sharif University of Technology
   dates: 2019 - present
+  short_description: |
+    My research area is  **Computer Vision**, particularly in **Gigapixel Histopathology images** and cancer detection.
   description: |
-    The subject of my research is **"Cancer in Histopathologic Images"**.
+    My research area is  **Computer Vision**, particularly in **Gigapixel Histopathology images** and cancer detection.
     I was in the middle of doing my research when the world faced COVID-19 pandemic and Iran suffered from a widespread of this virus as well.
     Among tireless efforts of different researchers about COVID-19, I was asked to join in a project about researching and developing tools over **CT images** that were used for diagnosis of involvement.
     This made a temporary change in accomplishing my main research.
@@ -31,10 +33,13 @@
   link: http://ipm.ir
   job_title: Institute for Research in Fundamental Sciences
   dates: summer 2015
+  short_description: |
+    The learning phase of the internship was about the parallelization techniques in computers.
+    My focus was on **CPU parallelization** and learning of related libraries and techniques in C++.
   description: |
     The learning phase of the internship was about the parallelization techniques in computers.
     My focus was on **CPU parallelization** and learning of related libraries and techniques in C++.
     Also, I experienced a deeper understanding of compilers for improving performance.
 
-    After the learning phase, my primary task was research on finding a **high-speed solution for Dynamic Skyline Problem** under the supervision of Dr.&nbsp;Saeid Gorgin.
+    After the learning phase, my primary task was research on finding a high-speed solution for **Dynamic Skyline Problem** under the supervision of Dr.&nbsp;Saeid Gorgin.
     Along with acquired knowledge in parallelization, I employed my capability in developing algorithms and data structure in the MEMOCODE contest and we won the prize of this challenge.
