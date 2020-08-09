@@ -1,8 +1,8 @@
 # Education Template
 - layout: left
-  name: Sharif University of Technology, Tehran, Iran
+  name: Masters of Artificial Intelligence
   dates: 2016 - 2019
-  qualification: Masters of Artificial Intelligence
+  qualification: Sharif University of Technology, Tehran, Iran
 #  quote: >
 #      Supervisor : Dr.&nbsp;Mahdieh Soleymani Baghshah
   short_description: |
@@ -23,9 +23,9 @@
 
 
 - layout: left
-  name: Kharazmi University, Tehran, Iran
+  name: Bachelor of Software Engineering
   dates: 2011 - 2016
-  qualification: Bachelor of Software Engineering
+  qualification: Kharazmi University, Tehran, Iran
   quote: >
     Kharazmi University formerly known as Tarbiat Moallem University
   description: |
