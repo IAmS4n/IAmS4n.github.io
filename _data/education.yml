@@ -1,6 +1,6 @@
 # Education Template
 - layout: left
-  name: Sharif University of Technology, Iran
+  name: Sharif University of Technology, Tehran, Iran
   dates: 2016 - 2019
   qualification: Masters of Artificial Intelligence
 #  quote: >
@@ -17,13 +17,13 @@
 
     My thesis explored the GANs usage in discrete sequence generation, especially text generation.
     I found some shortage in one of the common evaluation scenarios, and a new metric was introduced for enhancement of evaluation.
-    Also, a new method supporting theoretical analysis was introduced, which were comparable to the state of the art methods.
+    Also, a new method supporting theoretical analysis was introduced which were comparable to the state of the art methods.
 
-    The thesis (in Persian) and related publications are in [*this repository*](https://github.com/IAmS4n/My-Msc-Thesis).
+    The thesis (in Persian) and related publications are available in [*this repository*](https://github.com/IAmS4n/My-Msc-Thesis).
 
 
 - layout: left
-  name: Kharazmi University, Iran
+  name: Kharazmi University, Tehran, Iran
   dates: 2011 - 2016
   qualification: Bachelor of Software Engineering
   quote: >
