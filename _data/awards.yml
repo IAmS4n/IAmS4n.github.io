@@ -13,7 +13,7 @@
   job_title: National Scientific Olympiad for University Students
   dates: Aug 2016
   description: |
-    **Ranked 4th** in the 21st National Scientific Olympiad for University Students in Computer Engineering
+    **Ranked 4<sup>th</sup>** in the 21st National Scientific Olympiad for the University Students in Computer Engineering
 
 - layout: left
   job_title: National Entrance Exam
@@ -57,7 +57,7 @@
   description: |
     [**Ranked 3rd** in the HEROHE ECDP 2020](https://ecdp2020.grand-challenge.org/RESULTS/)
 
-    I participated individually with the *Piaz* as the team name. Also, My method was the best method based on the AUC metric.
+    I participated individually with the *Piaz* as the team name. My method was the best method based on the AUC metric.
 
 - layout: left
   job_title: Sharif University of Technology
@@ -66,7 +66,7 @@
     [**Ranked 3rd among more than 300 teams** in the Sharif Data Days 2019](/certificates/DataDays.jpg)
 
     I was one of the two members of the *KIVI* Team.
-    The on-site part which was time-limited contained some parts such as developing a classifier for multi-modal data including text and image.
+    The on-site part which was time-limited contained some sections such as developing a classifier for multi-modal data including text and image.
 
 - layout: left
   job_title: National Brain Mapping Lab, Iran
