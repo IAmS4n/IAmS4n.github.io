@@ -12,7 +12,7 @@
     Finding of the missed values in the adjacency matrix of a big undirected weighted graph by using **probabilistic graphical models**.
     The adjacency matrix's values were modeled with Poisson distribution and Gamma prior.
     Three approaches were investigated for solving the problem including **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
-    I have experienced calculation and parallel implementation of these methods.
+    I had experienced calculation and parallel implementation of these methods.
 
 - name: Brain EEG Signal
   image: /images/brain.png
