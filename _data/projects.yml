@@ -9,16 +9,16 @@
   github: IAmS4n/Matrix-Factorization
   image: /images/PGM.png
   description: |
-    Finding of the missed values in the adjacency matrix of a big undirected weighted graph by utilizing **probabilistic graphical models**.
+    Finding of the missed values in the adjacency matrix of a big undirected weighted graph by using **probabilistic graphical models**.
     The adjacency matrix's values were modeled with Poisson distribution and Gamma prior.
     Three approaches were investigated for solving the problem including **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
-    I experienced calculation and parallel implementation of these methods.
+    I have experienced calculation and parallel implementation of these methods.
 
 - name: Brain EEG Signal
   image: /images/brain.png
   description: |
-    Different ML models are tested on the EEG signal to recognize some humans' actions from their brains.
-    Features extracted from the frequency spectrogram and it turns out Random Forest is the best model.
+    Different ML models are tested on the EEG signal to recognize some actions from the brain.
+    Features are extracted from the frequency spectrogram and it turns out Random Forest is the best model.
     The implementation utilizes **Scikit-Learn**.
 
 - name: Vision-based 360-degree Robot
@@ -27,12 +27,12 @@
     Design and construction of a mobile robot with the ability to move to specific points on a board.
 
     I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
-    The programming language that is used in this project was **C++**.
+    The programming language used in this project was **C++**.
 
     As you can see in the video, there is a fixed camera above the robot.
     The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern.
     The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
-    The robot utilizes an **AVR microcontroller** for the execution of these commands.
+    The robot use an **AVR microcontroller** for the execution of these commands.
 
 - name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
@@ -46,7 +46,7 @@
   github: IAmS4n/English_with_Movie
   image: /images/lang.png
   description: |
-    A web-based video player to utilize movies for practicing language skills.
+    A web-based video player to leverage movies for practicing language skills.
     There is a demo for Persian speakers in [this link](https://iams4n.github.io/English_with_Movie/).
     The player gets a movie with two language subtitles, then it plays video dialog by dialog with an automatic pause and shows two subtitles simultaneously.
     It has some combinations of different modes for practicing different skills.
@@ -59,14 +59,14 @@
   description: |
     A tool to simplify slides and document images for saving the ink of the printers.
     **OpenCV** and **Scikit-Image** libraries are utilized for image processing and **Flask framework** for the interface.
-    I solve the problem of slides' background by considering slides as a video and using the video background removal techniques.
+    I solved the problem of slides' background by considering slides as a video and using the video background removal techniques.
 
 - name: Dynamic Skyline Problem
   image: /images/skyline.png
   description: |
     Design and implementation of a high-performance and distributed solution to the Dynamic Skyline Problem.
     The most important part of the implementation is using **data structures** such as the RedBlack tree.
-    The implementation utilizes **C++** ans **OpenMP** library.
+    The implementation utilizes **C++** and **OpenMP** library.
     Also, the problem was the challenge of an international competition (MEMOCODE 2015) and second place was achieved.
 
 - name: MIPS CPU with Pipeline
