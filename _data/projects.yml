@@ -14,6 +14,12 @@
     Three approaches were investigated for solving the problem including **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
     I have experienced calculation and parallel implementation of these methods.
 
+- name: Liver Segmentation
+  image: /images/liver.png
+  description: |
+    Segmentation of liver and liver lesions by 3D U-Net.
+    I participated in a project dealing with liver and liver lesion segmentation using the 3D U-Net model over MRI images.
+
 - name: Brain EEG Signal
   image: /images/brain.png
   description: |
