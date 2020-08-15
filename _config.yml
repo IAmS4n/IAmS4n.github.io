@@ -49,7 +49,8 @@ gtag: "UA-142543208-2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I hold M.S. degree in Artificial intelligence from the Sharif University of Technology.
+  My name is Ehsan Montahaei (احسان منتهائی).
+  I hold an M.Sc. degree in Artificial intelligence from the Sharif University of Technology.
   I have been working as a researcher in the Machine Learning Lab at the Sharif University of Technology since I graduated.
   My research interest is **Machine Learning**, especially **Deep Learning**.
   My master thesis was about the **generative models** and usage of adversarial training for **sequence generation**.

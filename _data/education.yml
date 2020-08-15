@@ -1,6 +1,6 @@
 # Education Template
 - layout: left
-  name: Masters of Artificial Intelligence
+  name: M.Sc. in Artificial Intelligence
   dates: 2016 - 2019
   qualification: Sharif University of Technology, Tehran, Iran
 #  quote: >
@@ -23,7 +23,7 @@
 
 
 - layout: left
-  name: Bachelor of Software Engineering
+  name: B.Sc. in Software Engineering
   dates: 2011 - 2016
   qualification: Kharazmi University, Tehran, Iran
   quote: >
