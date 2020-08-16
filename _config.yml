@@ -49,7 +49,7 @@ gtag: "UA-142543208-2"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Ehsan Montahaei (احسان منتهائی).
+  My name is Ehsan Montahaei.
   I hold an M.Sc. degree in Artificial intelligence from the Sharif University of Technology.
   I have been working as a researcher in the Machine Learning Lab at the Sharif University of Technology since I graduated.
   My research interest is **Machine Learning**, especially **Deep Learning**.
