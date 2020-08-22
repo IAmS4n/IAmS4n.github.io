@@ -14,10 +14,9 @@
 
 - layout: left
   company: Research Assistant
-  job_title: |
-    + Machine Learning Lab, Sharif University of Technology
-
-    + Physics Department of Shahid Beheshti University
+  jobs:
+    - dates: Machine Learning Lab, Sharif University of Technology
+    - dates: Physics Department of Shahid Beheshti University
   dates: Mar - Sep 2018
   description: |
     Cosmic string simulation using Generative Adversarial Networks
