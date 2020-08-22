@@ -13,6 +13,15 @@
     But I had the opportunity to broaden my knowledge about medical images and use it to continue my research.
 
 - layout: left
+  company: Research Assistant
+  job_title: |
+    + Machine Learning Lab, Sharif University of Technology
+    + Physics Department of Shahid Beheshti University
+  dates: Mar - Sep 2018
+  description: |
+    Cosmic string simulation using Generative Adversarial Networks
+
+- layout: left
   company: Teaching Assistant
   job_title: Sharif University of Technology
   description: |
