@@ -1,4 +1,4 @@
-- title: Jointly measuring diversity and quality in text generation models
+- title: Jointly measuring Diversity and Quality in text generation models
   link: https://www.aclweb.org/anthology/W19-2311.pdf
   pdf: https://www.aclweb.org/anthology/W19-2311.pdf
   github: IAmS4n/TextGenerationEvaluationMetrics
