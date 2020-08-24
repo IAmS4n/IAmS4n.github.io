@@ -3,15 +3,15 @@
   image: /images/vqa_logo.png
   description: |
     Investigation on [VQA dataset](https://visualqa.org/vqa_v1_download.html).
-    **TensorFlow** is utilized for the implementation of a solution based on CNN and LSTM architectures plus some ideas such as Attention and Positional features.
+    **TensorFlow** is utilized to implement a solution based on CNN and LSTM architectures plus some ideas such as Attention and Positional features.
 
 - name: Matrix Factorization
   github: IAmS4n/Matrix-Factorization
   image: /images/PGM.png
   description: |
-    Finding of the missed values in the adjacency matrix of a big undirected weighted graph by using **probabilistic graphical models**.
+    Finding of the missed values in the adjacency matrix of a big undirected weighted graph using **probabilistic graphical models**.
     The adjacency matrix's values were modeled with Poisson distribution and Gamma prior.
-    Three approaches were investigated for solving the problem including **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
+    Three approaches were investigated for solving the problem, including **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
     I have experienced calculation and parallel implementation of these methods.
 
 - name: Liver Segmentation
@@ -24,7 +24,7 @@
   image: /images/brain.png
   description: |
     Different ML models are tested on the EEG signal to recognize some actions from the brain.
-    Features are extracted from the frequency spectrogram and it turns out Random Forest is the best model.
+    Features are extracted from the frequency spectrogram, and it turns out Random Forest is the best model.
     The implementation utilizes **Scikit-Learn**.
 
 - name: Vision-based 360-degree Robot
@@ -38,13 +38,13 @@
     As you can see in the video, there is a fixed camera above the robot.
     The camera is connected to a computer and the position and angle of the robot are detected based on the robot's marker pattern.
     The computer wirelessly sends commands which describe the PWM rate and working time for each of four motors.
-    The robot use an **AVR microcontroller** for the execution of these commands.
+    The robot uses an **AVR microcontroller** for the execution of these commands.
 
 - name: Privacy-focused DICOM web panel
   github: IAmS4n/CTLabeling
   image: /images/ct_panel_demo.png
   description: |
-    The web system is developed based on **Flask framework** for the easy labeling of DICOM images with Privacy protection.
+    The web system is developed based on the **Flask framework** for the easy labeling of DICOM images with Privacy protection.
     The system is used for connecting to an AI system.
     Also, the system is prepared for use in an **Active Learning scenario**.
 
@@ -73,11 +73,11 @@
     Design and implementation of a high-performance and distributed solution to the Dynamic Skyline Problem.
     The most important part of the implementation is using **data structures** such as the RedBlack tree.
     The implementation utilizes **C++** and **OpenMP** library.
-    Also, the problem was the challenge of an international competition (MEMOCODE 2015) and second place was achieved.
+    Also, the problem was the challenge of an international competition (MEMOCODE 2015), and second place was achieved.
 
 - name: MIPS CPU with Pipeline
   github: IAmS4n/MIPS-CPU-VHDL
   image: /images/mips.jpg
   description: |
-    A MIPS CPU with Pipeline which described in Patterson's book is simulated using **VHDL**.
+    A MIPS CPU with Pipeline which is described in Patterson's book, is simulated using **VHDL**.
     Also, an **assembler** is developed for testing the CPU.
