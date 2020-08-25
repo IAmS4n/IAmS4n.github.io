@@ -11,7 +11,7 @@
   description: |
     Finding of the missed values in the adjacency matrix of a big undirected weighted graph using **probabilistic graphical models**.
     The adjacency matrix's values were modeled with Poisson distribution and Gamma prior.
-    Three approaches were investigated for solving the problem, including **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
+    Three approaches were investigated for solving the problem, including the **EM algorithm**, **Variational Inference**, and **Gibbs sampling** method.
     I have experienced calculation and parallel implementation of these methods.
 
 - name: Liver Segmentation
@@ -32,7 +32,7 @@
   description: |
     Design and construction of a mobile robot with the ability to move to specific points on a board.
 
-    I used machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library for enhancing the performance of the routing algorithms.
+    I used a machine vision (**OpenCV** library) for navigation, Bluetooth technology for communication, and **OpenMP** library to enhance the routing algorithms' performance.
     The programming language used in this project was **C++**.
 
     As you can see in the video, there is a fixed camera above the robot.
@@ -64,7 +64,7 @@
   image: /images/ink_saver.jpg
   description: |
     A tool to simplify slides and document images for saving the ink of the printers.
-    **OpenCV** and **Scikit-Image** libraries are utilized for image processing and **Flask framework** for the interface.
+    **OpenCV** and **Scikit-Image** libraries are utilized for image processing and the **Flask framework** for the interface.
     I solved the problem of slides' background by considering slides as a video and using the video background removal techniques.
 
 - name: Dynamic Skyline Problem
@@ -73,7 +73,6 @@
     Design and implementation of a high-performance and distributed solution to the Dynamic Skyline Problem.
     The most important part of the implementation is using **data structures** such as the RedBlack tree.
     The implementation utilizes **C++** and **OpenMP** library.
-    Also, the problem was the challenge of an international competition (MEMOCODE 2015), and second place was achieved.
 
 - name: MIPS CPU with Pipeline
   github: IAmS4n/MIPS-CPU-VHDL
