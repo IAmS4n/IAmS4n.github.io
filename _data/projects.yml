@@ -68,6 +68,7 @@
     I solved the problem of slides' background by considering slides as a video and using the video background removal techniques.
 
 - name: Dynamic Skyline Problem
+  github: IAmS4n/MEMOCODE2015-IPM
   image: /images/skyline.png
   description: |
     Design and implementation of a high-performance and distributed solution to the Dynamic Skyline Problem.
