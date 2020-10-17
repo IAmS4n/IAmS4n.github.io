@@ -1,3 +1,14 @@
+- title: DGSAN\: Discrete Generative Self-Adversarial Network
+  link: https://arxiv.org/pdf/1908.09127
+  pdf: https://arxiv.org/pdf/1908.09127
+  github: IAmS4n/DGSAN
+  details: |
+    **Montahaei, E.**, Alihosseini, D., & Baghshah, M. S. (2020)
+  short_abstract: |
+    Although GAN-based methods have received many achievements in the last few years, they have not been entirelysuccessful in generating discrete data. The most crucial challenge of these methods is the difficulty of passing the gradientfrom the discriminator to the generator when the generator outputs are discrete.
+  abstract: |
+    Although GAN-based methods have received many achievements in the last few years, they have not been entirelysuccessful in generating discrete data. The most crucial challenge of these methods is the difficulty of passing the gradientfrom the discriminator to the generator when the generator outputs are discrete. Despite the fact that several attemptshave been made to alleviate this problem, none of the existing GAN-based methods have improved the performance oftext generation compared with the maximum likelihood approach in terms of both the quality and the diversity. In thispaper, we proposed a new framework for generating discrete data by an adversarial approach in which there is no need topass the gradient to the generator. The proposed method has an iterative manner in which each new generator is definedbased on the last discriminator. It leverages the discreteness of data and the last discriminator to model the real datadistribution implicitly. Moreover, the method is supported with theoretical guarantees, and experimental results generallyshow the superiority of the proposed DGSAN method compared to the other popular or recent methods in generatingdiscrete sequential data.
+
 - title: Jointly measuring Diversity and Quality in text generation models
   link: https://www.aclweb.org/anthology/W19-2311.pdf
   pdf: https://www.aclweb.org/anthology/W19-2311.pdf
