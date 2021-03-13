@@ -1,4 +1,4 @@
-<div class="container awards-container">
+<div class="container awards-container" id="awards">
   <h3>{{ site.awards_title | default: "Awards and Achievements" }}</h3>
   {% for award in site.data.awards %}
     {% include {{ award.layout | default: 'left' | append: ".html" }} item=award id_prefix='awards'%}
