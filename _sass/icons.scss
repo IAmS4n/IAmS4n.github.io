@@ -1,13 +1,13 @@
-ul.menu_icons a:hover {
+ul.icons a:hover {
   background: rgba(0, 0, 0, 0.025);
 }
 
-ul.menu_icons li {
+ul.icons li {
   display: inline-block;
   padding-left: 0.75rem;
 }
 
-ul.menu_icons a {
+ul.icons a {
   -moz-transition: background-color 0.25s ease-in-out;
   -webkit-transition: background-color 0.25s ease-in-out;
   -ms-transition: background-color 0.25s ease-in-out;
@@ -24,12 +24,12 @@ ul.menu_icons a {
   color: #aaa;
 }
 
-.menu_icons i {
+.icons i {
   font-size: 30px;
   line-height:60px;
 }
 
-.menu_icons {
+.icons {
   padding: 0;
   font-size: 1rem;
   margin-bottom:20px;
@@ -37,18 +37,18 @@ ul.menu_icons a {
 }
 
 @media screen and (max-width: 768px) {
-  .menu_icons {
+  .icons {
     text-align: center;
   }
 }
 
 .dark {
-  .menu_icons i {
+  .icons i {
     background: none;
     color: #222;
   }
 
-  .menu_icons a:hover i {
+  .icons a:hover i {
     color: #e6e6e6;
   }
 }
