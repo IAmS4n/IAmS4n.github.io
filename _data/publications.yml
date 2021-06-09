@@ -1,13 +1,22 @@
+- title: "MoNuSAC2020: A Multi-organ Nuclei Segmentation and Classification Challenge"
+  link: https://ieeexplore.ieee.org/abstract/document/9446924/
+  details: |
+    Verma, Ruchika, et al. (2021, IEEE Transactions on Medical Imaging)
+  short_abstract: |
+    Detecting various types of cells in and around the tumor matrix holds a special significance in characterizing the tumor micro-environment for cancer prognostication and research. Automating the tasks of detecting, segmenting, and classifying nuclei can free up the pathologists’ time for higher value tasks and reduce errors due to fatigue and subjectivity.
+  abstract: |
+    Detecting various types of cells in and around the tumor matrix holds a special significance in characterizing the tumor micro-environment for cancer prognostication and research. Automating the tasks of detecting, segmenting, and classifying nuclei can free up the pathologists’ time for higher value tasks and reduce errors due to fatigue and subjectivity. To encourage the computer vision research community to develop and test algorithms for these tasks, we prepared a large and diverse dataset of nucleus boundary annotations and class labels. The dataset has over 46,000 nuclei from 37 hospitals, 71 patients, four organs, and four nucleus types. We also organized a challenge around this dataset as a satellite event at the International Symposium on Biomedical Imaging (ISBI) in April 2020. The challenge saw a wide participation from across the world, and the top methods were able to match inter-human concordance for the challenge metric. In this paper, we summarize the dataset and the key findings of the challenge, including the commonalities and differences between the methods developed by various participants. We have released the MoNuSAC2020 dataset to the public.
+
 - title: "DGSAN: Discrete Generative Self-Adversarial Network"
   link: https://arxiv.org/pdf/1908.09127
   pdf: https://arxiv.org/pdf/1908.09127
   github: IAmS4n/DGSAN
   details: |
-    **Montahaei, E.**, Alihosseini, D., & Baghshah, M. S. (2020)
+    **Montahaei, E.**, Alihosseini, D., & Baghshah, M. S. (2021, Neurocomputing 448)
   short_abstract: |
-    Although GAN-based methods have received many achievements in the last few years, they have not been entirelysuccessful in generating discrete data. The most crucial challenge of these methods is the difficulty of passing the gradientfrom the discriminator to the generator when the generator outputs are discrete.
+    Although GAN-based methods have received many achievements in the last few years, they have not been entirely successful in generating discrete data. The most crucial challenge of these methods is the difficulty of passing the gradient from the discriminator to the generator when the generator outputs are discrete.
   abstract: |
-    Although GAN-based methods have received many achievements in the last few years, they have not been entirelysuccessful in generating discrete data. The most crucial challenge of these methods is the difficulty of passing the gradientfrom the discriminator to the generator when the generator outputs are discrete. Despite the fact that several attemptshave been made to alleviate this problem, none of the existing GAN-based methods have improved the performance oftext generation compared with the maximum likelihood approach in terms of both the quality and the diversity. In thispaper, we proposed a new framework for generating discrete data by an adversarial approach in which there is no need topass the gradient to the generator. The proposed method has an iterative manner in which each new generator is definedbased on the last discriminator. It leverages the discreteness of data and the last discriminator to model the real datadistribution implicitly. Moreover, the method is supported with theoretical guarantees, and experimental results generallyshow the superiority of the proposed DGSAN method compared to the other popular or recent methods in generatingdiscrete sequential data.
+    Although GAN-based methods have received many achievements in the last few years, they have not been entirely successful in generating discrete data. The most crucial challenge of these methods is the difficulty of passing the gradient from the discriminator to the generator when the generator outputs are discrete. Despite the fact that several attempts have been made to alleviate this problem, none of the existing GAN-based methods have improved the performance of text generation compared with the maximum likelihood approach in terms of both the quality and the diversity. In this paper, we proposed a new framework for generating discrete data by an adversarial approach in which there is no need to pass the gradient to the generator. The proposed method has an iterative manner in which each new generator is defined based on the last discriminator. It leverages the discreteness of data and the last discriminator to model the real data distribution implicitly. Moreover, the method is supported with theoretical guarantees, and experimental results generally show the superiority of the proposed DGSAN method compared to the other popular or recent methods in generating discrete sequential data.
 
 - title: Jointly measuring Diversity and Quality in text generation models
   link: https://www.aclweb.org/anthology/W19-2311.pdf
@@ -17,7 +26,7 @@
   youtube: x0MDJe4Oc4k
   poster: /posters/NAACL2019_NeuralGen_JointlyMeasuring.pdf
   details: |
-    **Montahaei, E.**, Alihosseini, D., & Baghshah, M. S. (2019, In Proceedings of the Workshop on Methods for Optimizing and Evaluating Neural Language Generation.).
+    **Montahaei, E.**, Alihosseini, D., & Baghshah, M. S. (2019, In Proceedings of the Workshop on Methods for Optimizing and Evaluating Neural Language Generation)
   short_abstract: |
     Text generation is an important Natural Language Processing task with various applications. Although several metrics have already been introduced to evaluate the text generation methods, each of them has its own shortcomings. The most widely used metrics such as BLEU only consider the quality of generated sentences and neglect their diversity.
   abstract: |
