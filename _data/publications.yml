@@ -8,7 +8,7 @@
     Detecting various types of cells in and around the tumor matrix holds a special significance in characterizing the tumor micro-environment for cancer prognostication and research. Automating the tasks of detecting, segmenting, and classifying nuclei can free up the pathologists’ time for higher value tasks and reduce errors due to fatigue and subjectivity. To encourage the computer vision research community to develop and test algorithms for these tasks, we prepared a large and diverse dataset of nucleus boundary annotations and class labels. The dataset has over 46,000 nuclei from 37 hospitals, 71 patients, four organs, and four nucleus types. We also organized a challenge around this dataset as a satellite event at the International Symposium on Biomedical Imaging (ISBI) in April 2020. The challenge saw a wide participation from across the world, and the top methods were able to match inter-human concordance for the challenge metric. In this paper, we summarize the dataset and the key findings of the challenge, including the commonalities and differences between the methods developed by various participants. We have released the MoNuSAC2020 dataset to the public.
 
 - title: "DGSAN: Discrete Generative Self-Adversarial Network"
-  link: https://www.sciencedirect.com/science/article/abs/pii/S0925231221004835
+  link: https://arxiv.org/pdf/1908.09127
   pdf: https://arxiv.org/pdf/1908.09127
   github: IAmS4n/DGSAN
   details: |
